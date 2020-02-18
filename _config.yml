@@ -21,10 +21,12 @@ plugins:
   - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-seo-tag
+  - kramdown
 
 collections:
   ensino:
   ext:
+  pessoas:
   projetos:
   biblio:
   rede:
