@@ -24,15 +24,21 @@ plugins:
   - kramdown
 
 collections:
+  biblio:
   ensino:
+    output : true
   ext:
+    output : true
   pessoas:
   projetos:
-  biblio:
+    output : true
   rede:
+    output : true
+  tese:
 
 exclude:
   - docs/reveal.js/
+  - spec/styles/
   - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
