@@ -1,9 +1,13 @@
 title: Pedro Paulo Palazzo
 email: pedro.palazzo@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Pesquiso arquitetura tradicional do Brasil. Professor na Universidade de
-  Brasília e coordenador do grupo de pesquisa [Documentação, Modelagem e
-  Conservação do Patrimônio](https://dmcpatrimonio.github.io).
+description: >-
+  Pesquiso arquitetura tradicional do Brasil. Sou professor na
+  Universidade de Brasília e coordenador do grupo de pesquisa
+  [Documentação, Modelagem e Conservação do
+  Patrimônio](https://dmcpatrimonio.github.io). Este site é um
+  ajuda-memória para mim mesmo, registrando minha trajetória
+  profissional de um jeito mais acessível do que o curriculum
+[Lattes](http://lattes.cnpq.br/5767592881382885) :)
 baseurl: ""
 url: "https://p3palazzo.github.io" 
 twitter_username: p3palazzo
