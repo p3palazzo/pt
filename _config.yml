@@ -7,23 +7,25 @@ description: >-
   Patrimônio](https://dmcpatrimonio.github.io). Este site é um
   ajuda-memória para mim mesmo, registrando minha trajetória
   profissional de um jeito mais acessível do que o curriculum
-  [Lattes](http://lattes.cnpq.br/5767592881382885) :)
+  [Lattes](http://lattes.cnpq.br/5767592881382885)!
 baseurl: ""
 url: "https://p3palazzo.github.io" 
 twitter_username: p3palazzo
 github_username:  p3palazzo
 
 # Build settings
-theme: minima
+markdown: kramdown
+theme   : minima
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
 
 collections:
-        ensino:
-        projetos:
-        publicado:
-        rede:
+  ensino:
+  ext:
+  projetos:
+  biblio:
+  rede:
 
 exclude:
   - docs/reveal.js/
