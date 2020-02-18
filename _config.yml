@@ -15,6 +15,12 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
 
+collections:
+        ensino:
+        projetos:
+        publicado:
+        rede:
+
 exclude:
   - docs/reveal.js/
   - README.md
