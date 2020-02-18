@@ -27,8 +27,8 @@ collections:
     output : true
   ext:
     output : true
-  pessoas:
-  projetos:
+  pessoa:
+  projeto:
     output : true
   rede:
     output : true
