@@ -19,6 +19,8 @@ theme   : minima
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   ensino:
