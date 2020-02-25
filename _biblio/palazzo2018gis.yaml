@@ -1,0 +1,29 @@
+---
+references:
+- id: 'palazzo:2018gis3'
+  accessed:
+    - year: 2018
+      month: 6
+      day: 11
+  author:
+    - family: Palazzo
+      given: Pedro P.
+    - family: Laterza
+      given: Ana
+  container-title: 'Putting Tradition into Practice: Heritage, Place and Design'
+  DOI: 10.1007/978-3-319-57937-5_126
+  editor:
+    - family: Amoruso
+      given: Giuseppe
+  ISBN: 978-3-319-57936-8 978-3-319-57937-5
+  issued:
+    - year: 2018
+  page: 1218–1227
+  publisher: Springer
+  publisher-place: Cham
+  source: Crossref
+  title: GIS Model for Morpho-Typology in Historic Preservation and Contextual Design
+  type: chapter
+  URL: 'http://link.springer.com/10.1007/978-3-319-57937-5_126'
+  volume: '3'
+...
