@@ -1,12 +1,10 @@
 ---
-title: >-
-  Classicismo, tradicionalismo, ecletismo
-subtitle: >-
-  Cosmopolitismo e nacionalismo na cidade industrial
+title   : "Classicismo, tradicionalismo, ecletismo"
+subtitle: "Cosmopolitismo e nacionalismo na cidade industrial"
 id      : arqtrad
-inicio  : 2018-06-11
-fim     :
-abstract: |
+date    : 2018-06-11
+endDate :
+abstract: >-
   Este projeto de pesquisa visa a realizar uma taxonomia dos movimentos
   arquitetônicos da virada do século XIX no tocante às suas aspirações
   cosmopolitas ou nacionalistas, com ênfase no Brasil da primeira República.

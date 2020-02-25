@@ -43,12 +43,32 @@ defaults:
   -
     scope:
       path      : ""
+      type      : "ensino"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "ext"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
       type      : "projeto"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "rede"
     values:
       layout    : "page"
 
 # Build settings {{{1
 markdown        : kramdown
+kramdown:
+  auto_ids      : true
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
