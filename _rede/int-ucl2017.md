@@ -1,6 +1,8 @@
 ---
 id         : int-ucl2017.md
 title      : "Université catholique de Louvain"
+date       : 2018-10-17
+endDate    : 2023-10-17
 author:
   - luciana-saboia
 contributor:
@@ -17,10 +19,10 @@ Prof.^s^ Dr.^s^ Denis Zastavni e David Vanderburgh (UcL), desdobrou-se na
 realização de um segundo seminário conjunto nas dependências da UcL em
 Bruxelas, bem como na participação presencial conjunta de docentes da
 FAU–UnB e da Faculdade de Arquitetura, Engenharia e Urbanismo da UcL em
-comissões avaliadoras de disciplinas em ambas as instituições, no ano de
-2017. As atividades foram financiadas por meio de execução bilateral de
-recursos próprios das universidades e de agências de fomento da Bélgica,
-bem como graças a financiamentos atribuídos para este propósito
+comissões avaliadoras de disciplinas em ambas as instituições, no ano
+de 2017. As atividades foram financiadas por meio de execução bilateral
+de recursos próprios das universidades e de agências de fomento da
+Bélgica, bem como graças a financiamentos atribuídos para este propósito
 diretamente aos pesquisadores envolvidos, em particular pela Fundação de
 Apoio à Pesquisa do Distrito Federal (FAP--DF).
 

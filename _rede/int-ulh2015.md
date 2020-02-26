@@ -1,7 +1,7 @@
 ---
 id      : int-ulh2015
 title   : "Université Le Havre Normandie"
-date    : 2015-11
+date    : 2020-02-20
 endDate :
 author:
   - vanda-zanoni

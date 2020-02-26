@@ -1,7 +1,7 @@
 ---
 id     : grupo-dmcp
 title  : "Documentação, Modelagem e Conservação do Patrimônio"
-date   : 2017-12
+date   : 2018-02-19
 endDate:
 author:
   - vanda-zanoni
@@ -20,12 +20,12 @@ informação e gestão.
 Compreende integrantes de diversas instituições, incluindo o IPHAN e a
 Escola Politécnica da Universidade de São Paulo. Desenvolve pesquisas e
 ações de cooperação junto ao [CRIHBB da Université Le Havre
-Normandie](../_rede/int-ucl2017.md), visando à constituição de uma base
-de conhecimentos em conservação do patrimônio moderno. Seus
+Normandie]({% link _rede/int-ucl2017.md %}), visando à constituição de
+uma base de conhecimentos em conservação do patrimônio moderno. Seus
 pesquisadores desenvolvem projetos atualmente junto ao Departamento de
 Engenharia de Materiais e Cerâmica da Universidade de Aveiro (Portugal)
-e ao [Centro de Estudos Sociais da Universidade de
-Coimbra](../_rede/int-coimbra2020.md).
+e ao [Centro de Estudos Sociais da Universidade de Coimbra]({% link
+_rede/int-coimbra2020.md %}).
 
 O Grupo de Pesquisa DMCP constitui-se a partir da demanda por um *locus*
 institucional, na capital federal, para pesquisas e desenvolvimento

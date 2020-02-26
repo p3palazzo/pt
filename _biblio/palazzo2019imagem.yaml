@@ -1,0 +1,17 @@
+---
+references:
+- id: 'palazzo:2019imagem'
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  event: Imagem da arquitetura árabe no Brasil
+  event-place: Brasília
+  genre: Mesa-redonda
+  issued:
+    - year: 2019
+      month: 5
+      day: 14
+  language: pt-br
+  title: Moderador
+  type: speech
+...

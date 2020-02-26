@@ -1,10 +1,15 @@
 ---
-title: >-
+title: >
+  Raízes portuguesas da arquitetura brasileira na Belle époque: estílo,
+  política, construção
+subtitle: >
   Pesquisador visitante no Centro de Estudos Sociais da Universidade de
   Coimbra
-inicio: 2019-09-18
-final : 2020-07-31
-sei:    # Elencar todos os processos atinentes a este objeto
+date       : 2019-09-18
+endDate    : 2020-07-31
+contributor:
+sei:
+  23106.139221/2019-11
 ---
 
 A pesquisa desenvolvida neste intercâmbio versa sobre as trocas

@@ -20,7 +20,10 @@ collections:
   ext:
     output      : true
     permalink   : /:collection/:name
-  pessoa:
+  org:
+    output      : true
+    permalink   : /:collection/:name
+  pers:
   projeto:
     output      : true
     permalink   : /:collection/:name
@@ -52,6 +55,18 @@ defaults:
       type      : "ext"
     values:
       layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "org"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "posts"
+    values:
+      layout    : "posts"
   -
     scope:
       path      : ""

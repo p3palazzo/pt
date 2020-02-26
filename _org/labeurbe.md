@@ -1,7 +1,7 @@
 ---
 title      : "Laboratório de Estudos da Urbe"
 subtitle   : "LabeUrbe"
-date       : 2010
+date       : 2010-01-01
 website    : "http://labeurbe.unb.br"
 author:
 contributor:
