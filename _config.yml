@@ -24,6 +24,8 @@ collections:
     output      : true
     permalink   : /:collection/:name
   pers:
+  posts:
+    permalink   : /:categories/:year/:month/:day/:title/
   projeto:
     output      : true
     permalink   : /:collection/:name
@@ -61,12 +63,6 @@ defaults:
       type      : "org"
     values:
       layout    : "page"
-  -
-    scope:
-      path      : ""
-      type      : "posts"
-    values:
-      layout    : "posts"
   -
     scope:
       path      : ""
