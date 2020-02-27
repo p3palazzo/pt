@@ -249,6 +249,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown
+  minima (~> 2.5)
 
 BUNDLED WITH
    2.1.4
