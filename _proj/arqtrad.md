@@ -1,16 +1,31 @@
 ---
-title   : "Classicismo, tradicionalismo, ecletismo"
-subtitle: "Cosmopolitismo e nacionalismo na cidade industrial"
-id      : arqtrad
-date    : 2018-06-11
+title         : "Classicismo, tradicionalismo, ecletismo"
+subtitle      : "Cosmopolitismo e nacionalismo na cidade industrial"
+id            : arqtrad
+type          : research
+genre         :
+author        : pedro-palazzo
+contributor:
+accessMode    : textual
+startDate:
+  - year      : 2018
+    month     : 06
+    day       : 11
 endDate :
+lang          : pt-BR
+url           :
+codeRepository: https://github.com/dmcpatrimonio/arqtrad
+source: 
+  - 23106.067490/2018-89 # credenciamento
 abstract: >-
   Este projeto de pesquisa visa a realizar uma taxonomia dos movimentos
   arquitetônicos da virada do século XIX no tocante às suas aspirações
   cosmopolitas ou nacionalistas, com ênfase no Brasil da primeira República.
-keywords: Ecletismo, Nacionalismo, História urbana
-sei: 
-  23106.067490/2018-89
+keywords      : [Ecletismo, Nacionalismo, História urbana]
+isPartOf      : dmcp
+publication:
+award:
+sponsor:
 ---
 
 Este projeto de pesquisa versa sobre os discursos arquitetônicos
