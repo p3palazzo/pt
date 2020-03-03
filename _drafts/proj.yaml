@@ -1,0 +1,31 @@
+---
+id            :
+title         :
+subtitle      :
+type          : research
+genre         :
+author:
+  - pedro-palazzo
+contributor:
+accessMode    : textual
+startDate:
+  - year      :
+    month     :
+    day       :
+endDate:
+  - year      :
+    month     :
+    day       :
+lang          : pt-BR
+url           :
+codeRepository:
+source:         # processos SEI
+  -
+abstract: >
+keywords:
+  -
+publication:    # publicações decorrentes do projeto
+  -
+award:
+sponsor:
+---

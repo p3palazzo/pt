@@ -1,0 +1,20 @@
+---
+id            :
+title         :
+startDate:
+  - year      :
+    month     :
+    day       :
+endDate:        # caso o grupo tenha sido extinto
+author:         # coordenadores
+  -
+contributor:    # membros
+url           :
+codeRepository:
+lang          : pt-BR
+source:         # processos SEI
+abstract: >
+keywords:
+sponsor:
+---
+

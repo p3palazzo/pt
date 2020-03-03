@@ -1,13 +1,23 @@
 ---
-id     : grupo-dmcp
-title  : "Documentação, Modelagem e Conservação do Patrimônio"
-date   : 2018-02-19
+id         : grupo-dmcp
+title      : Documentação, Modelagem e Conservação do Patrimônio
+startDate:
+  - year   : 2018
+    month  : 02
+    day    : 19
 endDate:
 author:
   - vanda-zanoni
   - pedro-palazzo
 contributor:
   - marina-mennucci
+url        : http://labeurbe.unb.br
+lang       : pt-BR
+source:
+abstract: >
+keywords:
+funder:
+references:
 ---
 
 Grupo de pesquisa interinstitucional voltado para abordagens
