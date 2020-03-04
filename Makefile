@@ -1,19 +1,8 @@
-# Global variables {{{1
-# ================
-# Where make should look for things
-VPATH = lib
-vpath %.yaml .:spec
-vpath default.% lib/pandoc-templates
-
-# Branch-specific targets and recipes {{{1
-# ===================================
-
-
 # Install and cleanup {{{1
 # ===================
 # `make install` copies various config files and hooks to the .git
 # directory and sets up standard empty directories.
-.PHONY : install clean makedirs submodule virtualenv
+.PHONY : install clean makedirs submodule virtualenv build serve
 install : makedirs submodule virtualenv
 	# rm -rf .install
 	# The .install folder is quite small and is thus not removed even
@@ -37,6 +26,12 @@ virtualenv :
 	python3 -m virtualenv .venv && source .venv/bin/activate && \
 		pip3 install -r .install/requirements.txt
 	-rm -rf src
+
+build  :
+	bundle exec jekyll build
+
+serve  :
+	bundle exec jekyll serve
 
 # `make clean` will clear out a few standard folders where only compiled
 # files should be. Anything you might have placed manually in them will

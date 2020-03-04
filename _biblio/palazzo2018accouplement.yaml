@@ -1,0 +1,39 @@
+---
+references:
+- id: 'palazzo:2018accouplement:2'
+  accessed:
+    - year: 2019
+      month: 1
+      day: 21
+  author:
+    - family: Palazzo
+      given: Pedro P.
+  container-title: 'Building knowledge, constructing histories'
+  editor:
+    - family: Wouters
+      given: Ine
+    - family: Voorde
+      given: Stephanie Van
+      dropping-particle: de
+    - family: Bertels
+      given: Inge
+    - family: Espion
+      given: Bernard
+    - family: Jonge
+      given: Krista
+      dropping-particle: de
+    - family: Zastavni
+      given: Denis
+  ISBN: 978-0-429-44675-7
+  issued:
+    - year: 2018
+  language: English
+  page: 1029–1036
+  publisher: 'CRC : Balkema'
+  publisher-place: Leiden
+  source: Open WorldCat
+  title: 'Accouplement: Vicissitudes of an architectural motif in classical France'
+  title-short: Accouplement
+  type: chapter
+  volume: '2'
+...

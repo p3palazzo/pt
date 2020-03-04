@@ -525,3 +525,10 @@ vignettes/*.pdf
 ## R Environment Variables
 .Renviron
 
+=======
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+>>>>>>> master

@@ -1,50 +1,187 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title           : Pedro Paulo Palazzo
+author:
+  name          : Pedro Paulo Palazzo
+  email         : "pedro.palazzo@gmail.com"
+description: >-
+  Pesquiso arquitetura tradicional do Brasil. Sou professor na
+  Universidade de Brasília e coordenador do grupo de pesquisa
+  Documentação, Modelagem e Conservação do Patrimônio. Este site é um
+  ajuda-memória para mim mesmo, registrando minha trajetória profissional
+  de um jeito mais acessível do que o curriculum Lattes!
+baseurl         : ""
+url             : "https://p3palazzo.github.io" 
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Content settings {{{1
+collections:
+  biblio:
+  ensino:
+    output      : true
+    permalink   : /:collection/:name
+  ext:
+    output      : true
+    permalink   : /:collection/:name
+  org:
+    output      : true
+    permalink   : /:collection/:name
+  pers:
+  posts:
+    permalink   : /:categories/:year/:month/:day/:title/
+  projeto:
+    output      : true
+    permalink   : /:collection/:name
+  rede:
+    output      : true
+    permalink   : /:collection/:name
+  tese:
 
-# Build settings
-theme: minima
+# Template settings {{{1
+theme           : minima
+minima:
+  date_format   : "%e %b %y"
+  social_links:
+    twitter     : p3palazzo
+    github      : p3palazzo
+    instagram   : p3palazzo
+    flickr      : arqpalazzo
+    pinterest   :
+defaults:
+  -
+    scope:
+      path      : ""
+      type      : "ensino"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "ext"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "org"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "projeto"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "rede"
+    values:
+      layout    : "page"
+
+# Build settings {{{1
+markdown        : kramdown
+kramdown:
+  auto_ids      : true
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - kramdown
+google_analytics:
 exclude:
   - docs/reveal.js/
+=======
+title           : Pedro Paulo Palazzo
+author:
+  name          : Pedro Paulo Palazzo
+  email         : "pedro.palazzo@gmail.com"
+description: >-
+  Pesquiso arquitetura tradicional do Brasil. Sou professor na
+  Universidade de Brasília e coordenador do grupo de pesquisa
+  Documentação, Modelagem e Conservação do Patrimônio. Este site é um
+  ajuda-memória para mim mesmo, registrando minha trajetória profissional
+  de um jeito mais acessível do que o curriculum Lattes!
+baseurl         : ""
+url             : "https://p3palazzo.github.io" 
+
+# Content settings {{{1
+collections:
+  biblio:
+  ensino:
+    output      : true
+    permalink   : /:collection/:name
+  ext:
+    output      : true
+    permalink   : /:collection/:name
+  org:
+    output      : true
+    permalink   : /:collection/:name
+  pers:
+  posts:
+    permalink   : /:categories/:year/:month/:day/:title/
+  projeto:
+    output      : true
+    permalink   : /:collection/:name
+  rede:
+    output      : true
+    permalink   : /:collection/:name
+  tese:
+
+# Template settings {{{1
+theme           : minima
+minima:
+  date_format   : "%e %b %y"
+  social_links:
+    twitter     : p3palazzo
+    github      : p3palazzo
+    instagram   : p3palazzo
+    flickr      : arqpalazzo
+    pinterest   :
+defaults:
+  -
+    scope:
+      path      : ""
+      type      : "ensino"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "ext"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "org"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "projeto"
+    values:
+      layout    : "page"
+  -
+    scope:
+      path      : ""
+      type      : "rede"
+    values:
+      layout    : "page"
+
+# Build settings {{{1
+markdown        : kramdown
+kramdown:
+  auto_ids      : true
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - kramdown
+google_analytics:
+exclude:
+  - docs/reveal.js/
+  - lib/styles/
   - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
