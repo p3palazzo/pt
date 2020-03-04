@@ -105,7 +105,6 @@ url             : "https://p3palazzo.github.io"
 
 # Content settings {{{1
 collections:
-  biblio:
   ensino:
     output      : true
     permalink   : /:collection/:name
