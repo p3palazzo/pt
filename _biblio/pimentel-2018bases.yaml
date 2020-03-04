@@ -1,0 +1,33 @@
+---
+references:
+- id: 'pimentellopes:2018bases'
+  accessed:
+    - year: 2020
+      month: 3
+      day: 5
+  author:
+    - family: Pimentel Lopes
+      given: Camila de Queiroz
+  container-title: 'PNUM 2018. A Produção do Território: Formas, Processos, Desígnios'
+  editor:
+    - family: Calix
+      given: Teresa
+    - family: Fernandes
+      given: Ana Silva
+    - family: Sucena
+      given: Sara
+    - family: Travasso
+      given: Nuno
+    - family: Moreira
+      given: Bruno
+  event: Portuguese Network of Urban Morphology
+  ISBN: 978-989-8527-21-9
+  issued:
+    - year: 2018
+  page: 2291-2303
+  publisher: Faculdade de Arquitetura da Universidade do Porto
+  publisher-place: Porto
+  title: Bases conceituais da morfologia urbana
+  type: paper-conference
+  URL: 'https://pnum.arq.up.pt/wp-content/uploads/docs/PNUM2018_ACTAS_v3.13.pdf'
+...
