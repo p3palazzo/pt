@@ -4,7 +4,24 @@ subtitle   : "LabeUrbe"
 date       : 2010-01-01
 website    : "http://labeurbe.unb.br"
 author:
+  - pedro-palazzo
 contributor:
+  - family : Trevisan
+    given  : Ricardo
+  - family : Medeiros
+    given  : Ana Elisabete de Almeida
+  - family : Peixoto
+    given  : Elane Ribeiro
+  - family : Pescatori
+    given  : Carolina
+  - family : Schvarsberg
+    given  : Benny
+  - family : Saboia Fonseca Cruz
+    given  : Luciana
+  - family : Rossetti
+    given  : Eduardo Pierrotti
+  - family : Magalhães
+    given  : Marcos Thadeu Queiroz
 ---
 
 O laboratório foi criado em 2010 e reúne professores de linhas de
