@@ -5,13 +5,11 @@ title      : # Repeat 'name' because Jekyll needs this
 name:
   - family :
     given  :
-address    :
-address2   :
+url        :
 affiliation:
 jobTitle   :
 honorificPrefix:
 honorificSuffix:
 memberOf   :
-url        :
 award      :
 --
