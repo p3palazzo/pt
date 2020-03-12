@@ -19,6 +19,8 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+vendor/
+.bundle/
 
 # eBook build output {{{1
 *.epub
@@ -525,10 +527,3 @@ vignettes/*.pdf
 ## R Environment Variables
 .Renviron
 
-=======
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
->>>>>>> master
