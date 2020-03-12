@@ -89,106 +89,15 @@ plugins:
 google_analytics:
 exclude:
   - docs/reveal.js/
-=======
-title           : Pedro Paulo Palazzo
-author:
-  name          : Pedro Paulo Palazzo
-  email         : "pedro.palazzo@gmail.com"
-description: >-
-  Pesquiso arquitetura tradicional do Brasil. Sou professor na
-  Universidade de Brasília e coordenador do grupo de pesquisa
-  Documentação, Modelagem e Conservação do Patrimônio. Este site é um
-  ajuda-memória para mim mesmo, registrando minha trajetória profissional
-  de um jeito mais acessível do que o curriculum Lattes!
-baseurl         : ""
-url             : "https://p3palazzo.github.io" 
-
-# Content settings {{{1
-collections:
-  ensino:
-    output      : true
-    permalink   : /:collection/:name
-  ext:
-    output      : true
-    permalink   : /:collection/:name
-  org:
-    output      : true
-    permalink   : /:collection/:name
-  pers:
-  posts:
-    permalink   : /:categories/:year/:month/:day/:title/
-  projeto:
-    output      : true
-    permalink   : /:collection/:name
-  rede:
-    output      : true
-    permalink   : /:collection/:name
-  tese:
-
-# Template settings {{{1
-theme           : minima
-minima:
-  date_format   : "%e %b %y"
-  social_links:
-    twitter     : p3palazzo
-    github      : p3palazzo
-    instagram   : p3palazzo
-    flickr      : arqpalazzo
-    pinterest   :
-defaults:
-  -
-    scope:
-      path      : ""
-      type      : "ensino"
-    values:
-      layout    : "page"
-  -
-    scope:
-      path      : ""
-      type      : "ext"
-    values:
-      layout    : "page"
-  -
-    scope:
-      path      : ""
-      type      : "org"
-    values:
-      layout    : "page"
-  -
-    scope:
-      path      : ""
-      type      : "projeto"
-    values:
-      layout    : "page"
-  -
-    scope:
-      path      : ""
-      type      : "rede"
-    values:
-      layout    : "page"
-
-# Build settings {{{1
-markdown        : kramdown
-kramdown:
-  auto_ids      : true
-plugins:
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - kramdown
-google_analytics:
-exclude:
-  - docs/reveal.js/
   - lib/styles/
   - README.md
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .vendor/bundle/
+  - .vendor/cache/
+  - .vendor/gems/
+  - .vendor/ruby/
