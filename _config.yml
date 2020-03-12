@@ -1,6 +1,6 @@
-title           : Pedro Paulo Palazzo
+title           : "Pedro Paulo Palazzo"
 author:
-  name          : Pedro Paulo Palazzo
+  name          : "Pedro Paulo Palazzo"
   email         : "pedro.palazzo@gmail.com"
 description: >-
   Pesquiso arquitetura tradicional do Brasil. Sou professor na
@@ -39,10 +39,10 @@ theme           : minima
 minima:
   date_format   : "%e %b %y"
   social_links:
-    twitter     : p3palazzo
-    github      : p3palazzo
-    instagram   : p3palazzo
-    flickr      : arqpalazzo
+    twitter     : https://twitter.com/p3palazzo
+    github      : https://github.com/p3palazzo/p3palazzo.github.io
+    instagram   : https://instagram.com/p3palazzo
+    flickr      : https://flickr.com/photos/arqpalazzo
     pinterest   :
 defaults:
   -
