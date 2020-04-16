@@ -10,6 +10,7 @@ description: >-
   de um jeito mais acessível do que o curriculum Lattes!
 baseurl         : ""
 url             : "https://p3palazzo.github.io" 
+lang            : pt
 
 # Content settings {{{1
 collections:
@@ -34,16 +35,6 @@ collections:
     permalink   : /:collection/:name
   tese:
 
-# Template settings {{{1
-theme           : minima
-minima:
-  date_format   : "%e %b %y"
-  social_links:
-    twitter     : https://twitter.com/p3palazzo
-    github      : https://github.com/p3palazzo/p3palazzo.github.io
-    instagram   : https://instagram.com/p3palazzo
-    flickr      : https://flickr.com/photos/arqpalazzo
-    pinterest   :
 defaults:
   -
     scope:
@@ -76,16 +67,39 @@ defaults:
     values:
       layout    : "page"
 
+# Template settings {{{1
+theme           : minima
+minima:
+  date_format   : "%e %b %y"
+  social_links:
+    twitter     : https://twitter.com/p3palazzo
+    github      : https://github.com/p3palazzo/p3palazzo.github.io
+    instagram   : https://instagram.com/p3palazzo
+    flickr      : https://flickr.com/photos/arqpalazzo
+    pinterest   :
+
 # Build settings {{{1
 markdown        : kramdown
 kramdown:
   auto_ids      : true
+  header_offset : 1
+  transliterated_header_ids: true
 plugins:
   - jekyll-feed
-  - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-seo-tag
   - kramdown
+    # The following plugins are always used by GH-Pages
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
 google_analytics:
 exclude:
   - docs/reveal.js/
@@ -97,9 +111,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - .vendor/bundle/
-  - .vendor/cache/
-  - .vendor/gems/
-  - .vendor/ruby/
+  - .vendor/
 
 # vim: set foldmethod=marker :
