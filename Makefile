@@ -9,6 +9,16 @@ vpath default.% lib/pandoc-templates
 # Branch-specific targets and recipes {{{1
 # ===================================
 
+HTML = $(wildcard *.html)
+POSTS = $(wildcard _posts/*.md)
+INCLUDES = $(wildcard _includes/*.html)
+
+serve: build
+	bundle exec jekyll serve
+
+build: $(POSTS) $(HTML)
+	bundle exec jekyll build
+
 
 # Install and cleanup {{{1
 # ===================
@@ -64,7 +74,8 @@ virtualenv :
 	-rm -rf src
 
 bundle :
-	bundle config set path '.vendor/bundle'
+	gem install bundler
+	-bundle config set path '.vendor/bundle'
 	# Remove the line above if you want to install gems system-wide.
 	# (This requires sudo)
 	# The config set path is effectively ignored by bundle in favor of
@@ -72,13 +83,6 @@ bundle :
 	# is itself overridden by the built-in bundle path setting, which
 	# is `.vendor`. Can't seem to be able to change this in any way.
 	bundle install
-
-serve :
-	bundle exec jekyll serve
-
-build :
-	bundle exec jekyll build
-	cp -r _site/* docs/
 
 license :
 	source .venv/bin/activate && \
@@ -91,4 +95,4 @@ license :
 clean :
 	-rm -r _book/* _site/*
 
-# vim: set foldmethod=marker :
+# vim: set foldmethod=marker shiftwidth=2 :
