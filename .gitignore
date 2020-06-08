@@ -6,14 +6,6 @@
 # and R. As a bonus, there are some standard ignore patterns for Windows
 # and Mac.
 
-# Generated binary files (PDF, Word, etc.) go here {{{1
-## Book build output
-_book
-
-# For when you want to keep downloaded or received files next to your
-# repo without committing them (bc they're usually binaries).
-_share
-
 # Jekyll {{{1
 _site/
 .sass-cache/
