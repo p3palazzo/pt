@@ -68,7 +68,7 @@ defaults:
       layout    : "page"
 
 # Template settings {{{1
-theme           : minima
+remote_theme    : p3palazzo/minima-scholar
 minima:
   date_format   : "%e %b %y"
   social_links:
@@ -79,11 +79,6 @@ minima:
     pinterest   :
 
 # Build settings {{{1
-markdown        : kramdown
-kramdown:
-  auto_ids      : true
-  header_offset : 1
-  transliterated_header_ids: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -102,8 +97,6 @@ plugins:
 
 google_analytics:
 exclude:
-  - docs/reveal.js/
-  - lib/styles/
   - README.md
   - .sass-cache/
   - .jekyll-cache/
