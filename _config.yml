@@ -14,7 +14,7 @@ lang            : pt
 
 # Content settings {{{1
 header_pages:
-  - _posts/2019-05-04-trajetoria.md
+  - trajetoria.md
 collections:
   biblio:
   ensino:
