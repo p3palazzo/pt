@@ -79,6 +79,11 @@ minima:
     pinterest   :
 
 # Build settings {{{1
+markdown: kramdown
+kramdown:
+  header_offset: 1
+  parse_block_html: true
+  parse_span_html: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
