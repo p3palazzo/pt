@@ -13,6 +13,8 @@ url             : "https://p3palazzo.github.io"
 lang            : pt
 
 # Content settings {{{1
+header_pages:
+  - _posts/2019-05-04-trajetoria.md
 collections:
   biblio:
   ensino:
