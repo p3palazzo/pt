@@ -3,19 +3,17 @@ vpath %.csl lib/styles
 vpath %.yaml .:spec
 vpath default.% lib/pandoc-templates
 
-HTML = $(wildcard *.html)
 POSTS = $(wildcard _posts/*.md)
 INCLUDES = $(wildcard _includes/*.html)
 
-serve: build
-	bundle exec jekyll serve
+serve:
+	docker run --rm -h 127.0.0.1 -p 4000:4000 \
+		-v "`pwd`:/srv/jekyll" jekyll/jekyll:3.8.5 \
+		/bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"
 
-build: $(POSTS) $(HTML) bundle
-	bundle exec jekyll build
-
-bundle : .vendor/bundle
-	gem install bundler
-	-bundle config set path '.vendor/bundle'
-	bundle install
+build : 
+	docker run --rm -v "`pwd`:/srv/jekyll" \
+		jekyll/jekyll:3.8.5 /bin/bash -c \
+		"chmod 777 /srv/jekyll && jekyll build --future"
 
 # vim: set shiftwidth=2 :
