@@ -79,25 +79,24 @@ capacitação profissional promovidas pelo International Network for
 Traditional Building, Architecture, and Urbanism (INTBAU), desde 2009.
 
 Os períodos de afastamento da Universidade de Brasília foram, por sua
-vez, de fundamental importância para
-o enriquecimento das pesquisas desenvolvidas e das interações entre
-  pesquisa, ensino e gestão. O período em que lecionei no curso de
-  Conservação e Restauro de Bens Culturais na Universidade Federal do
-  Rio de Janeiro, entre 2014 e 2015, permitiu-me não apenas acessar
-  materiais de pesquisa que somente podiam ser encontrados nas
-  bibliotecas e arquivos do Rio de Janeiro, mas também formar redes de
-  colaboração científica e extensionista interdisciplinares e
-  interinstitucionais, envolvendo a Escola de Belas Artes e a Faculdade
-  de Arquitetura e Urbanismo da UFRJ, assim como
+vez, de fundamental importância para o enriquecimento das pesquisas
+desenvolvidas e das interações entre pesquisa, ensino e gestão. O
+período em que lecionei no curso de Conservação e Restauro de Bens
+Culturais na Universidade Federal do Rio de Janeiro, entre 2014 e 2015,
+permitiu-me não apenas acessar materiais de pesquisa que somente podiam
+ser encontrados nas bibliotecas e arquivos do Rio de Janeiro, mas também
+formar redes de colaboração científica e extensionista
+interdisciplinares e interinstitucionais, envolvendo a Escola de Belas
+Artes e a Faculdade de Arquitetura e Urbanismo da UFRJ, assim como
 o Ministério das Relações Exteriores. Foi, também, ocasião de refletir
-  sobre os processo de ensino de história da arte, observando as
-  abordagens peculiares à Conservação e Restauro de bens móveis e
-  integrados no tocante a recortes cronológicos e preocupações teóricas
-  e técnicas. Na sequência, minha atuação como Coordenador de Museus e
-  Patrimônio Cultural junto ao Governo do Distrito Federal, em 2016,
-  fomentou um duradouro intercâmbio com a prefeitura e a universidade de
-  Le Havre, que vem tendo continuidade no âmbito da pesquisa sobre a
-  história e preservação da construção moderna após o meu retorno à UnB.
+sobre os processo de ensino de história da arte, observando as
+abordagens peculiares à Conservação e Restauro de bens móveis e
+integrados no tocante a recortes cronológicos e preocupações teóricas e
+técnicas. Na sequência, minha atuação como Coordenador de Museus e
+Patrimônio Cultural junto ao Governo do Distrito Federal, em 2016,
+fomentou um duradouro intercâmbio com a prefeitura e a universidade de
+Le Havre, que vem tendo continuidade no âmbito da pesquisa sobre a
+história e preservação da construção moderna após o meu retorno à UnB.
 
 Os contatos da FAU--UnB com a Europa, com minha participação ativa e
 inclusive no papel de executor de acordos e planos de trabalho
@@ -113,10 +112,10 @@ intercâmbio de alunos de pós-graduação na área de história da
 construção. Em 2018, criamos o grupo de pesquisa Documentação, Modelagem
 e Conservação do Patrimônio, que coordeno e que tem tomado a dianteira
 na condução das parcerias com a Université Le Havre, mas também com a
-Università degli Studi di Roma « Tor Vergata », com
-o Laboratório de Processos Eletroquímicos da Universidade de São Paulo e
-  o Núcleo de Tecnologia da Preservação e do Restauro, na Universidade
-  Federal da Bahia.
+Università degli Studi di Roma « Tor Vergata », com o Laboratório de
+Processos Eletroquímicos da Universidade de São Paulo e o Núcleo de
+Tecnologia da Preservação e do Restauro, na Universidade Federal da
+Bahia.
 
 Ainda no ano de 2018, realizei, às minhas próprias custas e durante
 minhas férias, dois processos de estudo e documentação na Europa,
@@ -136,12 +135,29 @@ consistiu em levantamentos e análises da arquitetura tradicional do
 Alentejo, no sul de Portugal, com o apoio técnico do INTBAU, já tendo
 essa atividade resultado na publicação de um capítulo de livro.
 
+Em 2018, em parceria com a prof.ª Dr.ª Vanda Zanoni, desta FAU–UnB,
+formei o grupo de pesquisa Documentação, Modelagem e Conservação do
+Patrimônio, vinculado ao Laboratório de Estudos da Urbe (LabeUrbe) do
+PPG–FAU. O grupo conta com a participação dos professores Ana Elisabete
+de Almeida Medeiros e Márcio Buson, da FAU–UnB, além da Dr.ª Marina
+Martins Mennucci (Universidade de Aveiro). Desde então, o grupo
+estabeleceu contatos nas Universidades de Oxford e Coimbra, e tem
+fomentado interlocuções produtivas entre seus integrantes e respectivos
+orientandos de pós-graduação.
+
+Entre 2019 e 2020, atuei como investigador visitante junto ao Centro de
+Estudos Sociais da Universidade de Coimbra, gozando de uma licença de
+pós-doutorado. Este período permitiu o aprofundamento de vínculos com
+pesquisadores do IASTE e do ramo da morfologia urbana, e resultou em
+coleta de material teórico e primário para redação de um livro versando
+sobre a arquitetura luso-brasileira do "longo século XIX", atualmente em
+elaboração.
+
 O estudo e o levantamento de fontes bibliográficas e construídas no
 exterior é elemento central no desenvolvimento de minhas pesquisas, mas
 também na construção de redes de colaboração que vêm resultando não
 apenas em produção científica, mas também na expansão de intercâmbio de
 discentes assim como de experiências pedagógicas.
-
 
 Projetos financiados
 ====================
@@ -192,8 +208,8 @@ serviços técnicos contratados pelo poder público, se rebateram em
 produção bibliográfica de caráter científico.
 
 
-Regularidade
-============
+Regularidade da produção técnico-científica
+===========================================
 
 A minha atuação profissional e científica tem se pautado pelo fio
 condutor das relações entre tradição e modernidade, reunindo os diversos
@@ -205,11 +221,11 @@ de ordem pessoal). A isso agregam-se as publicações em anais de eventos
 e as organizações de livros. O crescimento da minha produção
 bibliográfica em 2018, quando publiquei quatro artigos e capítulos, foi
 planejado em preparação para o tempo que pretendo dedicar, em 2019 e
-2020, à finalização de um livro monográfico sobre a história da
-arquitetura brasileira no século XIX e Primeira República, resultando em
-provável queda no número de publicações de artigos e capítulos durante
-esse período --- queda relativizada, porém, graças a um capítulo que já
-se encontra no prelo e outro em fase de revisão.
+2020, à redação de um livro monográfico sobre a história da arquitetura
+brasileira no século XIX e primeira República, resultando em provável
+queda no número de publicações de artigos e capítulos durante esse
+período --- queda relativizada, porém, graças a um capítulo que já se
+encontra no prelo e outro em fase de revisão.
 
 Minha produção bibliográfica tem buscado um equilíbrio entre textos
 redigidos em colaboração com outros pesquisadores e alunos de
@@ -224,4 +240,9 @@ internacional Brasília 50+50 ---, 2014 --- XIII SHCU ---, 2017 ---
 seminário sobre história da construção organizado em parceria entre a
 UnB e a Université catholique de Louvain --- e, atualmente, participando
 da coordenação geral do IV Enanparq a ser realizado em 2020.
+
+Perspectivas
+============
+
+
 
