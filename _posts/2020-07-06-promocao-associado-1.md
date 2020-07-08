@@ -4,7 +4,10 @@ date       : 2020-06-20
 categories : [Carreira]
 tags       : [Progressão, DGP, UnB]
 sei:
-  23106.053371/2020-63
+- id: 23106.053371/2020-63
+  name: Pedido
+- id: 23106.050451/2018-42 
+  name: Designa comissão examinadora
 ---
 
 Senhor Chefe,
@@ -18,3 +21,17 @@ técnico-científica, de projetos de pesquisa financiados e de formação
 complementar, além do Curriculum Vitae atualizado.
 
 Brasília, 7 de julho de 2020.
+
+* * * *
+
+Comissão examinadora designada pelo ato da Direção da FAU n.º 2/2020:
+
+- Maria do Carmo de Lima Bezerra (FAU-TEC)
+- Carlos Eduardo Luna de Melo (FAU-TEC)
+- Adriana Amado (FACE)
+
+Suplentes:
+
+- Cláudia Naves David Amorim (FAU-TEC)
+- Marta Adriana Bustos Romero (FAU-TEC)
+- Jaime Gonçalves de Almeida (FAU-PRO)
