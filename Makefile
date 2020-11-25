@@ -1,6 +1,6 @@
 VPATH = lib
 vpath %.csl lib/styles
-vpath %.yaml .:spec
+vpath %.yaml .:_spec
 vpath default.% lib/pandoc-templates
 
 POSTS = $(wildcard _posts/*.md)
