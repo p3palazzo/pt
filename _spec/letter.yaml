@@ -1,0 +1,42 @@
+from            : markdown+raw_tex
+to              : latex
+standalone      : true
+file-scope      : true
+pdf-engine      : xelatex
+variables:
+  documentclass: letter
+  fontsize: 11pt
+  geometry:
+    - top=3cm
+    - right=2cm
+    - bottom=2.5cm
+    - left=3cm
+  header-includes:
+    - \usepackage[right]{eurosym}
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhf{}
+    - \lhead{\XeTeXglyph \XeTeXglyphindex "ass_completa_CONT" \relax}
+    - \lfoot{\small{FAU/THAU/PP/\the\year{}}}
+    - \rfoot{\small{\thepage}}
+    - \renewcommand{\headrulewidth}{0.5pt}
+    - \renewcommand{\footrulewidth}{0.5pt}
+    - \name{Pedro P. Palazzo}
+    - \signature{Pedro P. Palazzo}
+    - |
+      \address{%
+        Pedro P. Palazzo, Ph.D., Associate professor\\
+        Faculdade de Arquitetura e Urbanismo\\
+        Universidade de Brasília\\
+        ICC Norte Bloco A Sala ASS–585/9\\
+        Brasília DF 70910–900\\
+        palazzo@unb.br | www.labeurbe.unb.br
+      }
+  mainfont: "UnB Pro"
+  mainfontoptions:
+    - Numbers        = Proportional
+    - BoldFont       = UnBPro-Bold
+    - ItalicFont     = UnBPro-RegularItalic
+    - BoldItalicFont = UnBPro-BoldItalic
+  papersize: a4
+  sansfont: "UnB Pro-Light"
