@@ -70,15 +70,15 @@ defaults:
       layout    : "page"
 
 # Template settings {{{1
-remote_theme    : p3palazzo/minima-scholar
+theme           : minima
 minima:
   date_format   : "%e %b %y"
   social_links:
     twitter     : https://twitter.com/p3palazzo
-    github      : https://github.com/p3palazzo/p3palazzo.github.io
+    github      : https://github.com/p3palazzo
     instagram   : https://instagram.com/p3palazzo
     flickr      : https://flickr.com/photos/arqpalazzo
-    pinterest   :
+    pinterest   : https://pinteres.com/p3palazzo
 
 # Build settings {{{1
 markdown: kramdown
