@@ -68,7 +68,7 @@ alt="Proposed plan of Beirã. Marvão Summer School, 2018" %}
 
 {% include fig.html caption='Title image for the <em>Arquitetura
 tradicional do Brasil</em> project, <a
-href="http://instagram.com/arqtrad/">@arqtrad on Instagram</a>'
+href="http://instagram.com/arqtrad/">\@arqtrad on Instagram</a>'
 alt="Title image for the Arquitetura tradicional do Brasil project"
 src="https://www.integra.unb.br/s/S3z7ogYLqQPP5yr/preview" %}
 
