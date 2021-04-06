@@ -1,24 +1,51 @@
-VPATH = lib
+# Global variables {{{1
+# ================
+# Where make should look for things
+VPATH = _lib
+vpath %.csl _csl
 vpath %.yaml .:_spec
-vpath default.% lib/pandoc-templates
+vpath default.% _lib
 
-POSTS = $(wildcard _posts/*.md)
-INCLUDES = $(wildcard _includes/*.html)
-PANDOC/LATEX := docker run -u "`id -u`:`id -g`" \
-	-v "`pwd`:/data" -v "`pwd`/_assets/fonts:/usr/share/fonts" \
-	pandoc/latex:2.11.2
+# Branch-specific targets and recipes {{{1
+# ===================================
 
-build : 
-	docker run -v "`pwd`:/srv/jekyll" \
-		jekyll/jekyll:3.8.5 /bin/bash -c \
-		"chmod 777 /srv/jekyll && jekyll build"
+# Jekyll {{{2
+# ------
+ANYTHING     := $(filter_out _site,$(wildcard *))
+JEKYLL       := palazzo/jekyll-pandoc:4.2.0-2.12
+
+build : $(ANYTHING) | _csl
+	docker run --rm -v "`pwd`:/srv/jekyll" \
+		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
+		$(JEKYLL) jekyll build --future
 
 serve :
-	docker run -h 127.0.0.1 -p 4000:4000 \
-		-v "`pwd`:/srv/jekyll" jekyll/jekyll:3.8.5 \
-		/bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"
+	docker run --rm -it -v "`pwd`:/srv/jekyll" \
+		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
+		-p 4000:4000 -h 0.0.0.0:127.0.0.1 \
+		$(JEKYLL) jekyll serve --incremental
 
-2020-11-25-recomenda-vilanova-delft.pdf : letter.yaml _drafts/2020-11-25-recomenda-vilanova-delft.md
+# Install and cleanup {{{1
+# ===================
+
+_csl :
+	git clone --depth=1 \
+		https://github.com/citation-style-language/styles \
+		_csl
+
+
+Gemfile.lock : Gemfile
+	docker run --rm -v "`pwd`:/srv/jekyll" \
+		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
+		$(JEKYLL) bundle update
+
+# `make clean` will clear out a few standard folders where only compiled
+# files should be. Anything you might have placed manually in them will
+# also be deleted!
+clean :
+	-rm -r _book/* _site/* _csl
+
+%.pdf : letter.yaml %.md
 	$(PANDOC/LATEX) -o $@ -d $^
 
-# vim: set shiftwidth=2 :
+# vim: set shiftwidth=2 tabstop=2 foldmethod=marker :

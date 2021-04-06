@@ -78,24 +78,25 @@ minima:
     github      : https://github.com/p3palazzo
     instagram   : https://instagram.com/p3palazzo
     flickr      : https://flickr.com/photos/arqpalazzo
-    pinterest   : https://pinteres.com/p3palazzo
+    pinterest   : https://pinterest.com/p3palazzo
 
 # Build settings {{{1
-markdown: kramdown
-kramdown:
-  header_offset: 1
-  parse_block_html: true
-  parse_span_html: true
+markdown: Pandoc
+pandoc:
+  extensions:
+    - bibliography: "_data/biblio.yaml"
+    - csl: "_csl/chicago-fullnote-bibliography-with-ibid.csl"
+    - defaults: "_spec/defaults.yaml"
+    - section-divs
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - kramdown
+  - jekyll-pandoc
     # The following plugins are always used by GH-Pages
   - jekyll-coffeescript
   - jekyll-default-layout
   - jekyll-gist
-  - jekyll-github-metadata
   - jekyll-optional-front-matter
   - jekyll-paginate
   - jekyll-readme-index

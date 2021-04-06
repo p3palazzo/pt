@@ -9,6 +9,7 @@
 _share
 
 # Jekyll {{{1
+_csl/
 _site/
 Gemfile.lock
 .sass-cache/
