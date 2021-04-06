@@ -12,9 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the custom jekyll-pandoc container
-      run: |
-        docker run -v ${{ github.workspace }}:/srv/jekyll \
-          palazzo/jekyll-pandoc:4.2.0-2.12 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build"
+      run: cd ${{ github.workspace }} && chmod 777 . && make
     - uses: actions/upload-artifact@v2
       with:
         name: site
