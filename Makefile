@@ -6,6 +6,10 @@ vpath %.csl _csl
 vpath %.yaml .:_spec
 vpath default.% _lib
 
+PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
+	-v "`pwd`/assets/fonts:/usr/share/fonts" \
+	-u "`id -u`:`id -g`" pandoc/latex:2.12
+
 # Branch-specific targets and recipes {{{1
 # ===================================
 
@@ -24,6 +28,11 @@ serve :
 		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
 		-p 4000:4000 -h 0.0.0.0:127.0.0.1 \
 		$(JEKYLL) jekyll serve --incremental
+
+# Automatic {{{2
+
+%.tex %.pdf : letter.yaml _drafts/%.md
+	$(PANDOC/LATEX) -o $@ -d $^
 
 # Install and cleanup {{{1
 # ===================
@@ -44,8 +53,5 @@ Gemfile.lock : Gemfile
 # also be deleted!
 clean :
 	-rm -r _book/* _site/* _csl
-
-%.pdf : letter.yaml %.md
-	$(PANDOC/LATEX) -o $@ -d $^
 
 # vim: set shiftwidth=2 tabstop=2 foldmethod=marker :
