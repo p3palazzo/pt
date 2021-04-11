@@ -3,6 +3,16 @@ author: "Pedro P. Palazzo"
 date  : "25 November 2020"
 lang  : en-GB
 layout: page
+header-includes:
+- |
+  \address{%
+    Pedro P. Palazzo, Ph.D., Associate professor\\
+    Faculdade de Arquitetura e Urbanismo\\
+    Universidade de Brasília\\
+    ICC Norte Bloco A Sala ASS–585/9\\
+    Brasília DF 70910–900\\
+    palazzo@unb.br | www.labeurbe.unb.br
+  }
 include-before:
 - |
   ```{=latex}
