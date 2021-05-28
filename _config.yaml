@@ -13,16 +13,9 @@ url             : "https://p3palazzo.github.io"
 lang            : pt
 
 # Content
-include_before:
-  - <div class="main-nav">
-  - <a href="/cv/" alt="Curriculum Vitae" title="Curriculum Vitae"><i class="ai ai-cv ai-2x"></i></a>
-  - <a href="https://orcid.org/0000-0002-0187-774X" alt="ORCID" title="ORCID"><i class="ai ai-orcid ai-2x"></i></a>
-  - <a href="http://lattes.cnpq.br/5767592881382885" alt="Currículo Lattes" title="Currículo Lattes"><i class="ai ai-lattes ai-2x"></i></a>
-  - <a href="https://www.cienciavitae.pt//pt/D91E-0C60-B56B" alt="Ciência Vit&ae;"><i class="ai ai-ciencia-vitae ai-2x"></i></a>
-  - <a href="https://unb.academia.edu/PedroPalazzo" alt="Academia.edu"><i class="ai ai-academia ai-2x"></i></a>
-  - <a href="https://www.researchgate.net/profile/Pedro-Palazzo" alt="ResearchGate" title="ResearchGate"><i class="ai ai-researchgate ai-2x"></i></a>
-  - <a href="https://osf.io/79vsd/" alt="OSF" title="OSF"><i class="ai ai-osf ai-2x"></i></a>
-  - </div>
+header_includes:
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
 
 collections:
   ensino:
@@ -141,8 +134,6 @@ sass_dir:
     - assets/css
     - assets/css-slides
     - reveal.js/css/theme/template
-header_includes:
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 # Read
 exclude:
