@@ -1,7 +1,8 @@
 ---
 title     : "Relatório de atividades desenvolvidas durante a licença para pós-doutorado"
 categories: [Pesquisador visitante]
-lang: pt-BR
+lang: pt
+ref: rel-posdoc-2020
 tags:
 - Licença
 - Pesquisador visitante

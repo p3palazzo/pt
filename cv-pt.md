@@ -1,5 +1,6 @@
 ---
-title : Pedro P. Palazzo
+title : "Curriculum Vit&ae;"
+author: Pedro P. Palazzo
 lang  : pt
 layout: page
 ref   : cv

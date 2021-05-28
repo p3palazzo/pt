@@ -2,6 +2,8 @@
 title      : "Promoção para o nível Associado I"
 date       : 2020-06-20
 categories : [Carreira]
+lang       : pt
+ref        : promo-associado
 tags       : [Progressão, DGP, UnB]
 sei:
 - id: 23106.053371/2020-63

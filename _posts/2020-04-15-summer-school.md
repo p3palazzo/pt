@@ -1,7 +1,9 @@
 ---
 title : "Application for the 2020 Premio Rafael Manzano Summer School"
 author: "Pedro P. Palazzo"
+lang  : pt
 date  : 2020-04-14
+ref   : summer-school-2020
 ---
 
 - [Motivation letter](#motivation-letter)
