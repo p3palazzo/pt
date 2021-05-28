@@ -1,10 +1,10 @@
 ---
 title : "Pedro P. Palazzo"
 layout: index
-lang  : en
-permalink: /en/
+lang  : pt
+permalink: /pt/
 ref   : index
 ---
 
-<p>My track record.</p>
+Registro da minha carreira.
 

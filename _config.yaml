@@ -10,7 +10,7 @@ description: >-
   de um jeito mais acessível do que o curriculum Lattes!
 baseurl         : ""
 url             : "https://p3palazzo.github.io" 
-lang            : pt
+lang            : en
 
 # Content
 header_includes:
@@ -65,16 +65,14 @@ defaults:
     values:
       layout    : "page"
 
+jekyll-archives:
+  enabled: [ year, categories ]
+  layouts:
+    year: year
+    category: category
+
 # Template
 theme           : tufte-pandoc-jekyll
-minima:
-  date_format   : "%d/%m/%Y"
-  social_links:
-    twitter     : https://twitter.com/p3palazzo
-    github      : https://github.com/p3palazzo
-    instagram   : https://instagram.com/p3palazzo
-    flickr      : https://flickr.com/photos/arqpalazzo
-    pinterest   : https://pinterest.com/p3palazzo
 
 # Plugins
 plugins:
