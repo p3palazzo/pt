@@ -15,7 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-include-cache"
   gem "jekyll-optional-front-matter"
-  gem "jekyll-paginate"
+  #gem "jekyll-paginate"
   gem "jekyll-pandoc"
   gem "jekyll-scholar"
   gem "jekyll-relative-links"

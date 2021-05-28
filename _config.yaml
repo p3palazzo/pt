@@ -88,7 +88,7 @@ plugins:
   - jekyll-coffeescript
   - jekyll-default-layout
   - jekyll-gist
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-relative-links
 
 # Processing
@@ -135,16 +135,17 @@ sass_dir:
 
 # Read
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - .vendor/
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - Makefile
   - README.md
-  - .sass-cache/
-  - .jekyll-cache/
   - gemfiles/
   - node_modules/
-  - .vendor/
+  - reveal.js
   - "default.*"
   - "*.fdb_latexmk"
   - "*.run.xml"
@@ -153,9 +154,9 @@ keep_files:
   - reveal.js/
 
 # Write
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: "America/Sao_Paulo"
 date_format: "%d/%m/%Y"
 
