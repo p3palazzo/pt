@@ -1,9 +1,10 @@
 ---
-title: "Curriculum Vit&ae;"
+title: "Curriculum Vitæ"
 author: Pedro P. Palazzo
 date: "Updated June 23^rd^, 2020"
 lang: en
 layout: page
+permalink: /en/cv/
 ref: cv
 abstract: |
   Architectural historian and preservationist specialising in the
