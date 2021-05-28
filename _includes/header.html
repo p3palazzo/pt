@@ -5,7 +5,7 @@
       <p class="subtitle">{{ page.subtitle }}</p>
     {% endif -%}
     {%- if page.date %}
-      <p class="byline">{{ page.date | date: "%B %-d, %Y"}}</p>
+      <p class="byline">{{ page.date | date: "%d/%m/%Y"}}</p>
     {% endif -%}
     {%- if page.author %}
       <p class="author">{{ page.author }}
