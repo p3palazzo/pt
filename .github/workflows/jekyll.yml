@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      width:
+        submodules: 'recursive'
     - name: Build the site in the custom jekyll-pandoc container
       run: cd ${{ github.workspace }} && chmod 777 . && make
     - uses: actions/upload-artifact@v2
