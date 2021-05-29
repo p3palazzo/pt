@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+{% assign page.title = page.date | date: "%Y" %}
+{% capture content %}
+<ul class="blogroll">
+{% for post in page.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+{% endcapture %}
+{% include default.html %}

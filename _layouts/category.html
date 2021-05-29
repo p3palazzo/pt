@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+{% capture content %}
+<ul class="blogroll">
+  {% assign posts = page.posts | where: post.lang, page.lang %}
+  {% for post in posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endcapture %}
+{% include default.html %}
