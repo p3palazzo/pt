@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  {% include head.html %}
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang | default: site.lang }}" href="{{ post.url }}" />
+  {% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang | default: site.lang }}" href="{{ page.url }}" />
+  {% endfor %}
+</head>
+<body>
+  {% include before.html %}
+
+  <article>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% if page.layout != 'index' %}
+    <section>
+      <p class="signoff"><em><a href="{{ site.baseurl }}/">Home</a></em></p>
+    </section>
+    {% endif %}
+  </article>
+
+  {% include after.html %}
+  {% include math.html %}
+</body>
+</html>

@@ -2,6 +2,8 @@
 id         : 'palazzo:2019imagem'
 author     : pedro-palazzo
 editor     : carolina-pescatori
+lang       : pt
+ref        : imagem-arabe
 contributor:
   - family : López Guzmán
     given  : Rafael
@@ -21,7 +23,6 @@ issued:
   - year   : 2019
     month  :    5
     day    :   14
-language   : pt-br
 title      : Imagem da arquitetura árabe no Brasil
 type       : speech
 categories : [Evento]

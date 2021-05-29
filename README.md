@@ -7,7 +7,19 @@ This code functions as an *aide-mémoire* to myself, helping me organize
 information I might need to access quickly and in a useful way for
 reports, résumés, and so on.
 
-* * *
+Uses:
+
+- [Academicons](https://github.com/jpswalsh/academicons)
+- [EB Garamond](https://github.com/georgd/EB-Garamond)
+- [FontAwesome](https://fontawesome.com/)
+- [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
+- [Jekyll Relative Links](https://github.com/benbalter/jekyll-relative-links)
+- [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar)
+- [Making Jekyll Multilingual](https://sylvaindurand.org/making-jekyll-multilingual/)
+  by Sylvain Durand
+- [Tufte-Pandoc-Jekyll](https://github.com/jez/tufte-pandoc-jekyll)
+
+* * * *
 
 p3palazzo.github.io (c) 2020 by Pedro P. Palazzo
 

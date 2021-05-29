@@ -2,6 +2,8 @@
 title : "Trajetória acadêmica e profissional"
 date  : 2019-05-04
 author: Pedro P. Palazzo
+lang  : pt
+ref   : trajetoria
 ---
 
 Trajetória acadêmica

@@ -1,7 +1,9 @@
 ---
 title      : "Recredenciamento de orientador pleno da pós-graduação (mestrado e doutorado)"
 date       : 2021-01-21
-categories : [Pós-graduação, Orientação, Administrativo]
+categories : [Pós-graduação]
+lang       : pt
+ref        : credencia-2021
 tags       : [PPG, DPG, UnB]
 sei:
 - id: 23106.106883/2020-30

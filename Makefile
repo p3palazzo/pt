@@ -1,57 +1,59 @@
-# Global variables {{{1
+# Global variables and setup {{{1
 # ================
-# Where make should look for things
 VPATH = _lib
-vpath %.csl _csl
 vpath %.yaml .:_spec
-vpath default.% _lib
+vpath %.csl .:_csl
+vpath default.% .:_lib
+vpath reference.% .:_lib
 
+DEFAULTS := defaults.yaml _bibliography/references.bib
+JEKYLL-VERSION := 4.2.0
+PANDOC-VERSION := 2.12
+JEKYLL/PANDOC := docker run --rm -v "`pwd`:/srv/jekyll" \
+	-h "0.0.0.0:127.0.0.1" -p "4000:4000" \
+	palazzo/jekyll-tufte:$(JEKYLL-VERSION)-$(PANDOC-VERSION)
+PANDOC/CROSSREF := docker run --rm -v "`pwd`:/data" \
+	-u "`id -u`:`id -g`" pandoc/crossref:$(PANDOC-VERSION)
 PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
-	-v "`pwd`/assets/fonts:/usr/share/fonts" \
-	-u "`id -u`:`id -g`" pandoc/latex:2.12
+	-u "`id -u`:`id -g`" palazzo/pandoc-ebgaramond:$(PANDOC-VERSION)
 
-# Branch-specific targets and recipes {{{1
-# ===================================
+# Targets and recipes {{{1
+# ===================
+%.pdf : %.md $(DEFAULTS) \
+	| _csl/chicago-fullnote-bibliography-with-ibid.csl
+	$(PANDOC/LATEX) -d _spec/defaults.yaml -o $@ $<
+	@echo "$< > $@"
 
-# Jekyll {{{2
-# ------
-ANYTHING     := $(filter_out _site,$(wildcard *))
-JEKYLL       := palazzo/jekyll-pandoc:4.2.0-2.12
+%.docx : %.md $(DEFAULTS) reference.docx \
+	| _csl/chicago-fullnote-bibliography-with-ibid.csl
+	$(PANDOC/CROSSREF) -d _spec/defaults.yaml -o $@ $<
+	@echo "$< > $@"
 
-build : $(ANYTHING) | _csl
-	docker run --rm -v "`pwd`:/srv/jekyll" \
-		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
-		$(JEKYLL) jekyll build --future
+.PHONY : _site
+_site : | _csl/chicago-fullnote-bibliography-with-ibid.csl
+	@$(JEKYLL/PANDOC) /bin/bash -c \
+	"chmod 777 /srv/jekyll && jekyll build"
 
-serve :
-	docker run --rm -it -v "`pwd`:/srv/jekyll" \
-		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
-		-p 4000:4000 -h 0.0.0.0:127.0.0.1 \
-		$(JEKYLL) jekyll serve --incremental
-
-# Automatic {{{2
-
-%.tex %.pdf : letter.yaml _drafts/%.md
-	$(PANDOC/LATEX) -o $@ -d $^
+_csl/%.csl : _csl
+	@cd _csl && git checkout master -- $(@F)
+	@echo "Checked out $(@F)."
 
 # Install and cleanup {{{1
 # ===================
+.PHONY : serve
+serve : | _csl/chicago-fullnote-bibliography-with-ibid.csl
+	@$(JEKYLL/PANDOC) jekyll serve
 
+.PHONY : _csl
 _csl :
-	git clone --depth=1 \
-		https://github.com/citation-style-language/styles \
-		_csl
+	@echo "Fetching CSL styles..."
+	@test -e $@ || \
+		git clone --depth=1 --filter=blob:none --no-checkout \
+		https://github.com/citation-style-language/styles.git \
+		$@
 
-
-Gemfile.lock : Gemfile
-	docker run --rm -v "`pwd`:/srv/jekyll" \
-		-v "`pwd`/.vendor/bundle:/usr/local/bundle" \
-		$(JEKYLL) bundle update
-
-# `make clean` will clear out a few standard folders where only compiled
-# files should be. Anything you might have placed manually in them will
-# also be deleted!
+.PHONY : clean
 clean :
-	-rm -r _book/* _site/* _csl
+	-rm -rf _book/* _site _csl
 
-# vim: set shiftwidth=2 tabstop=2 foldmethod=marker :
+# vim: set foldmethod=marker shiftwidth=2 tabstop=2 :

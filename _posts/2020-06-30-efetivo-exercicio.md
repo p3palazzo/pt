@@ -2,7 +2,8 @@
 title : "Comprovação de efetivo exercício do cargo durante interrupção de afastamento"
 author: "Pedro P. Palazzo"
 date  : 2020-06-30
-lang  : pt-BR
+lang  : pt
+ref   : 2020-efetivo-exercicio
 source:
 - id  : 23106.066581/2019-88
   name: Processo de afastamento

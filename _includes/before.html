@@ -1,0 +1,38 @@
+{% if site.include_before %}
+  {% for include_before in site.include_before %}
+    {{ include_before }}
+  {% endfor %}
+{% endif %}
+
+<div id="lang-select">
+{%- if page.layout != 'index' %}
+  {% assign posts=site.posts | where: "ref", page.ref | sort: "lang" -%}
+  {% for post in posts -%}
+    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+  {%- endfor %}
+  {% assign pages=site.pages | where: "ref", page.ref | sort: "lang" -%}
+  {% for page in pages -%}
+    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+  {%- endfor %}
+{%- else -%}
+  <a href="/" class="en">en</a>
+  <a href="/fr/" class="fr">fr</a>
+  <a href="/pt/" class="pt">pt</a>
+{% endif -%}
+</div>
+<nav id="main-nav">
+  <a href="cv/" title="Curriculum Vitae"><i title="Curriculum Vitae" class="ai ai-cv ai-2x"></i></a>
+  <a href="https://orcid.org/0000-0002-0187-774X" title="ORCID"><i title="ORCID" class="ai ai-orcid ai-2x"></i></a>
+  <a href="http://lattes.cnpq.br/5767592881382885" title="Currículo Lattes"><i title="Currículo Lattes" class="ai ai-lattes ai-2x"></i></a>
+  <a href="https://www.cienciavitae.pt//pt/D91E-0C60-B56B" title="Ciência Vit&ae;"><i class="ai ai-ciencia-vitae ai-2x"></i></a>
+  <a href="https://unb.academia.edu/PedroPalazzo" title="Academia.edu"><i class="ai ai-academia ai-2x"></i></a>
+  <a href="https://www.researchgate.net/profile/Pedro-Palazzo" title="ResearchGate"><i title="ResearchGate" class="ai ai-researchgate ai-2x"></i></a>
+  <a href="https://osf.io/79vsd/" title="OSF"><i title="OSF" class="ai ai-osf ai-2x"></i></a>
+</nav>
+
+{% if page.include_before %}
+  {% for include_before in page.include_before %}
+    {{ include_before }}
+  {% endfor %}
+{% endif %}
+
