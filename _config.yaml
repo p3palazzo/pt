@@ -9,14 +9,20 @@ description: >-
   ajuda-memória para mim mesmo, registrando minha trajetória profissional
   de um jeito mais acessível do que o curriculum Lattes!
 baseurl         : ""
-url             : "https://p3palazzo.github.io" 
+url             : "https://palazzo.arq.br"
 lang            : en
+
+# Multilingual
+languages       : [ "en", "pt", "fr" ]
+default_locale_in_subfolder: true
+exclude_from_localizations:
+  - reveal.js
+  - assets
 
 # Content
 header_includes:
   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-
 collections:
   ensino:
     output      : true
@@ -37,7 +43,6 @@ collections:
     output      : true
     permalink   : /:collection/:name
   tese:
-
 defaults:
   - scope:
       path      : ""
@@ -64,14 +69,13 @@ defaults:
       type      : "rede"
     values:
       layout    : "page"
-
 jekyll-archives:
   enabled: [ year, categories ]
   layouts:
     year: year
     category: category
 
-# Template
+# Theme
 theme           : tufte-pandoc-jekyll
 
 # Plugins
@@ -79,17 +83,15 @@ plugins:
   - jekyll-archives
   - jekyll-data
   - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-pandoc
-  - jekyll-scholar
-    # The following plugins are always used by GH-Pages
-  - jekyll-coffeescript
-  - jekyll-default-layout
   - jekyll-gist
+  - jekyll-include-cache
   #- jekyll-paginate
+  - jekyll-pandoc
+  - jekyll-redirect-from
   - jekyll-relative-links
+  - jekyll-scholar
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Processing
 markdown: Pandoc
@@ -154,7 +156,7 @@ keep_files:
   - reveal.js/
 
 # Write
-#permalink: /:categories/:title/
+permalink: pretty
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 timezone: "America/Sao_Paulo"

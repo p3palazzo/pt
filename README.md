@@ -13,6 +13,7 @@ Uses:
 - [EB Garamond](https://github.com/georgd/EB-Garamond)
 - [FontAwesome](https://fontawesome.com/)
 - [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
+- [Jekyll Redirect From](https://github.com/jekyll/jekyll-redirect-from)
 - [Jekyll Relative Links](https://github.com/benbalter/jekyll-relative-links)
 - [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar)
 - [Making Jekyll Multilingual](https://sylvaindurand.org/making-jekyll-multilingual/)
