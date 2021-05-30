@@ -1,6 +1,5 @@
 ---
-title : "Curriculum Vitæ"
-author: Pedro P. Palazzo
+title : "Pedro P. Palazzo"
 lang  : pt
 layout: page
 permalink: /pt/cv/

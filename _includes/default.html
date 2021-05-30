@@ -21,7 +21,7 @@
 
     {% if page.layout != 'index' %}
     <section>
-      <p class="signoff"><em><a href="{{ site.baseurl }}/">Home</a></em></p>
+      <p class="signoff"><em><a href="{{ site.baseurl }}/{{ page.lang | default: site.lang }}">Home</a></em></p>
     </section>
     {% endif %}
   </article>

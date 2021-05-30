@@ -1,7 +1,5 @@
 ---
-title: "Curriculum Vitæ"
-author: Pedro P. Palazzo
-date: "Updated June 23^rd^, 2020"
+title: "Pedro P. Palazzo"
 lang: en
 layout: page
 permalink: /en/cv/
