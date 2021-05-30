@@ -57,7 +57,7 @@ abstract: |
 
 \columnbreak
 
-#### Education ####
+#### Education #### {.cv}
 
 2010
 : Ph.D in Aesthetics and Semiology of Architecture and Urbanism
@@ -89,7 +89,7 @@ abstract: |
 \columnsend
 ```
 
-# Academic and Research Affiliations #
+# Academic and Research Affiliations # {.cv}
 
 2020--
 : University of Brasilia School of Architecture and Urbanism
@@ -125,7 +125,7 @@ abstract: |
 : Centro Universitário Euro-Americano, Brasilia, Brazil
 : Lecturer, undergraduate teaching.
 
-# Research and Funding #
+# Research and Funding # {.cv}
 
 All projects conducted as Principal Investigator unless noted otherwise.
 
@@ -174,7 +174,7 @@ All projects conducted as Principal Investigator unless noted otherwise.
   partially funded by a foreign study grant from
   [CAPES]{.smallcaps}.
 
-# Publications in English #
+# Publications in English # {.cv}
 
 Article accepted for publication
 : 'Vernacular Patterns in Portugal and Brazil: Evolution and
@@ -215,12 +215,12 @@ Article accepted for publication
 : {% reference palazzo:2012capital239 %}
 
 2012
-: {% reference palazzo:2012architecture %}
+: {% reference palazzo:2012architecture5 %}
 
 2010
 : {% reference ficher:2010modern %}
 
-# Other Publications #
+# Other Publications # {.cv}
 
 Upcoming book chapter
 : 'Le nationalisme romantique en Europe et la critique des styles
@@ -238,7 +238,7 @@ Upcoming book chapter
 : {% reference palazzo:2017cidades %}
 
 2017
-: [@iphan:2017catetinho]. Survey, documentation, and preservation
+: {% reference iphan:2017catetinho %}. Survey, documentation, and preservation
   guidelines for a historic wooden house in Brasilia, Brazil. Project
   manager and historian.
 
@@ -261,12 +261,12 @@ Upcoming book chapter
 : {% reference palazzo:2012patrimonio %}
 
 2012
-: [@iphan:2012planaltina]. Survey, documentation, and preservation
+: {% reference iphan:2012planaltina %}. Survey, documentation, and preservation
   guidelines for a historic urban site dating back to the early nineteenth
   century in the Brazilian Central highlands. Project manager and
   historian.
 
-# Award #
+# Award # {.cv}
 
 2015
 : Brazilian Institute of Architects publication award (honourable
@@ -361,7 +361,7 @@ Art Market
 : Economic aspects of the work of art. Market and investment in Brazil.
   Authenticity as an economic asset.
 
-# Leadership and Service #
+# Leadership and Service # {.cv}
 
 2020--
 : University of Brasilia postgraduate program in Architecture and
@@ -409,7 +409,7 @@ Art Market
 : *Journal of Urbanism* (Taylor and Francis)
 : Editorial board member.
 
-# Master and Doctoral Supervisions #
+# Master and Doctoral Supervisions # {.cv}
 
 Sole supervisor except where noted otherwise.
 

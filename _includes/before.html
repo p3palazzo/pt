@@ -15,12 +15,13 @@
     <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
   {%- endfor %}
 {%- else -%}
-  <a href="/" class="en">en</a>
+  <a href="/en/" class="en">en</a>
   <a href="/fr/" class="fr">fr</a>
   <a href="/pt/" class="pt">pt</a>
 {% endif -%}
 </div>
 <nav id="main-nav">
+  <a href="/{{ page.lang | default: site.lang }}/" title="Home"><i class="fas fa-home fa-2x" title="Home"></i></a>
   <a href="/{{ page.lang | default: site.lang }}/cv/" title="Curriculum Vitae"><i title="Curriculum Vitae" class="ai ai-cv ai-2x"></i></a>
   <a href="https://orcid.org/0000-0002-0187-774X" title="ORCID"><i title="ORCID" class="ai ai-orcid ai-2x"></i></a>
   <a href="http://lattes.cnpq.br/5767592881382885" title="Currículo Lattes"><i title="Currículo Lattes" class="ai ai-lattes ai-2x"></i></a>

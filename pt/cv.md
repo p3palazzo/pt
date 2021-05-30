@@ -48,7 +48,7 @@ História da urbanização e da construção tradicional e vernácula no mundo
 luso-brasileiro. Teoria e crítica da arte e da arquitetura na transição
 entre o mundo clássico e a modernidade.
 
-#### Formação académica ####
+#### Formação académica #### {.cv}
 
 2010
 : Doutor em Estética e Semiótica da Arquitetura e do Urbanismo
@@ -70,7 +70,7 @@ entre o mundo clássico e a modernidade.
 \columnsend
 ```
 
-# Investigação #
+# Investigação # {.cv}
 
 2019--2020
 : *Raízes portuguesas da arquitetura brasileira na Belle Époque*
@@ -100,7 +100,7 @@ entre o mundo clássico e a modernidade.
 : Projeto de investigação financiado pela Coordenação de Aperfeiçoamento do
   Pessoal de Nível Superior \textsc{\MakeLowercase{(CAPES)}}, Brasil.
 
-# Vínculos profissionais #
+# Vínculos profissionais # {.cv}
 
 2014--2016
 : Universidade Federal do Rio de Janeiro, Escola de Belas Artes
@@ -120,7 +120,7 @@ Membro do comité científico de periódicos
   Paulo
 : *Urbana* Universidade Estadual de Campinas
 
-# Orientações relevantes #
+# Orientações relevantes # {.cv}
 
 2019--2022
 : {% reference oliveira:2022lugares %}
@@ -137,7 +137,7 @@ Membro do comité científico de periódicos
 2017--2018
 : {% reference lima:2018narrativas %}
 
-# Publicações relevantes #
+# Publicações relevantes # {.cv}
 
 2020
 : {% reference palazzo:2020literary32 %}
