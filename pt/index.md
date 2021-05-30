@@ -23,3 +23,4 @@ investigador visitante junto ao projeto
 [NOVA]{.smallcaps} de Lisboa. Sou membro do Comitê de documentação do
 conselho científico do Icomos Brasil.
 
+- [Trajetória acadêmica profissional](trajetoria.md)

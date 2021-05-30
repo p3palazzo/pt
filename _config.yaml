@@ -156,7 +156,7 @@ keep_files:
   - reveal.js/
 
 # Write
-#permalink: /:categories/:title/
+permalink: pretty
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 timezone: "America/Sao_Paulo"
