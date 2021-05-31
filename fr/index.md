@@ -22,5 +22,13 @@ recherche [TechNetEmpire](https://technetempire.fcsh.unl.pt/) de
 l'Université [NOVA]{.smallcaps} de Lisbonne. Je suis également membre du
 Comité de documentation d'Icomos Brésil.
 
-- [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+<i title="Contact" class="fas fa-envelope"></i>
+Contactez-moi sur mes réseaux sociaux (liens en haut de la page)
+<i title="Monter" class="fas fa-arrow-up"></i>
+
+- Je suis sur [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+
+# Œuvre non bibliographique #
+
+- Plans, cartes et schémas sur [Wikimédia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=fr)
 
