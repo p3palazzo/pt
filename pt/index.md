@@ -23,8 +23,12 @@ investigador visitante junto ao projeto
 [NOVA]{.smallcaps} de Lisboa. Sou membro do Comitê de documentação do
 conselho científico do Icomos Brasil.
 
+<i title="Contato" class="fas fa-envelope"></i>
+Contato: via redes sociais (links no topo da página)
+<i title="Subir" class="fas fa-arrow-up"></i>
+
 - [Trajetória acadêmica e profissional](trajetoria.md)
-- [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+- Meu perfil no [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
 
 # Ensino #
 
@@ -32,3 +36,6 @@ conselho científico do Icomos Brasil.
 - [História da Arquitetura e da Arte II](/tau0006/)
 
 # Trabalhos técnicos e consultorias #
+
+- Plantas, mapas e diagramas no [Wikimédia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=pt)
+
