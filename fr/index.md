@@ -22,3 +22,5 @@ recherche [TechNetEmpire](https://technetempire.fcsh.unl.pt/) de
 l'Université [NOVA]{.smallcaps} de Lisbonne. Je suis également membre du
 Comité de documentation d'Icomos Brésil.
 
+- [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+
