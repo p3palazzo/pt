@@ -23,4 +23,12 @@ investigador visitante junto ao projeto
 [NOVA]{.smallcaps} de Lisboa. Sou membro do Comitê de documentação do
 conselho científico do Icomos Brasil.
 
-- [Trajetória acadêmica profissional](trajetoria.md)
+- [Trajetória acadêmica e profissional](trajetoria.md)
+- [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+
+# Ensino #
+
+- [História da Arquitetura e da Arte I](/tau0005/)
+- [História da Arquitetura e da Arte II](/tau0006/)
+
+# Trabalhos técnicos e consultorias #

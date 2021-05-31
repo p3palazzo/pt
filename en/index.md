@@ -23,3 +23,5 @@ scholar affiliated with the
 the [NOVA]{.smallcaps} University, Lisbon. I am a member of the
 Documentation committee of Icomos Brazil.
 
+- [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+
