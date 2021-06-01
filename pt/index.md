@@ -28,7 +28,7 @@ Contato: via redes sociais (links no topo da página)
 <i title="Subir" class="fas fa-arrow-up"></i>
 
 - [Trajetória acadêmica e profissional](trajetoria.md)
-- Meu perfil no [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+- Meu perfil e publicações no [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
 
 # Ensino #
 

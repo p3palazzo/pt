@@ -27,9 +27,10 @@ Documentation committee of Icomos Brazil.
 Contact me through my social networks (links on top)
 <i title="Go up" class="fas fa-arrow-up"></i>
 
-- My profile on [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
-
 # My work #
 
-- Plans, maps, and diagrams on [Wikimedia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=en)
+- Profile and selected publications on
+  [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+- Plans, maps, and diagrams on
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=en)
 
