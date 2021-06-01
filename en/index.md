@@ -21,11 +21,15 @@ of Architecture and Urbanism](http://www.fau.unb.br) and a visiting
 scholar affiliated with the
 [TechNetEmpire](https://technetempire.fcsh.unl.pt/) research project at
 the [NOVA]{.smallcaps} University, Lisbon. I am a member of the
-Documentation committee of Icomos Brazil.
+Documentation committee of Icomos Brazil and do consulting work in
+historic preservation and traditional architecture through
+[Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
+<ul class="contact"><li>
 <i title="Contact" class="fas fa-envelope"></i>
-Contact me through my social networks (links on top)
+Contact and inquiries through my social networks (links on top)
 <i title="Go up" class="fas fa-arrow-up"></i>
+</li></ul>
 
 # My work #
 

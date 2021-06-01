@@ -20,11 +20,16 @@ d'Architecture et d'Urbanisme de l'Université de
 Brasilia](http://www.fau.unb.br) et chercheur invité auprès du projet de
 recherche [TechNetEmpire](https://technetempire.fcsh.unl.pt/) de
 l'Université [NOVA]{.smallcaps} de Lisbonne. Je suis également membre du
-Comité de documentation d'Icomos Brésil.
+Comité de documentation d'Icomos Brésil et je travaille
+occasionnellement sur la conservation du patrimoine et sur
+l'architecture traditionnelle avec
+[Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
+<ul class="contact"><li>
 <i title="Contact" class="fas fa-envelope"></i>
-Contactez-moi sur mes réseaux sociaux (liens en haut de la page)
-<i title="Monter" class="fas fa-arrow-up"></i>
+Contactez-moi sur mes réseaux sociaux (liens en haut de la page) <i
+title="Monter" class="fas fa-arrow-up"></i>
+</li></ul>
 
 # Travaux et publications #
 
