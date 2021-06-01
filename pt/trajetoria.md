@@ -3,6 +3,7 @@ title : "Trajetória acadêmica e profissional"
 date  : 2019-07-06
 layout: page
 lang  : pt
+namespace: trajetoria
 ---
 
 Trajetória acadêmica

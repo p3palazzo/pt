@@ -4,7 +4,7 @@ subtitle: "Histoire de la construction et architecture traditionnelle"
 layout: index
 lang  : fr
 permalink: /fr/
-ref   : index
+namespace: index
 ---
 
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){.marginnote}

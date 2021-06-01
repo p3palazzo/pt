@@ -3,7 +3,7 @@ title : "Pedro P. Palazzo"
 subtitle: "Construction history and traditional architecture"
 layout: index
 lang  : en
-ref   : index
+namespace: index
 permalink: "/en/"
 ---
 

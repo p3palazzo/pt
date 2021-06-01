@@ -4,7 +4,7 @@ author     : "Pedro P. Palazzo"
 date       : 2020-09-17
 categories : [Eventos]
 lang       : pt
-ref        : 2020-09-17-archlit
+namespace: 2020-09-17-archlit
 tags       : [Palestra, Clássico Tradicional Eclético, CES]
 ---
 

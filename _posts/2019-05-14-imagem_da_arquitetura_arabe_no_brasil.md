@@ -3,7 +3,7 @@ id         : 'palazzo:2019imagem'
 author     : pedro-palazzo
 editor     : carolina-pescatori
 lang       : pt
-ref        : imagem-arabe
+namespace: imagem-arabe
 contributor:
   - family : López Guzmán
     given  : Rafael
