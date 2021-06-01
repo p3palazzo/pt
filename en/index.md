@@ -3,7 +3,7 @@ title : "Pedro P. Palazzo"
 subtitle: "Construction history and traditional architecture"
 layout: index
 lang  : en
-ref   : index
+namespace: index
 permalink: "/en/"
 ---
 
@@ -21,15 +21,20 @@ of Architecture and Urbanism](http://www.fau.unb.br) and a visiting
 scholar affiliated with the
 [TechNetEmpire](https://technetempire.fcsh.unl.pt/) research project at
 the [NOVA]{.smallcaps} University, Lisbon. I am a member of the
-Documentation committee of Icomos Brazil.
+Documentation committee of Icomos Brazil and do consulting work in
+historic preservation and traditional architecture through
+[Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
+<ul class="contact"><li>
 <i title="Contact" class="fas fa-envelope"></i>
-Contact me through my social networks (links on top)
+Contact and inquiries through my social networks (links on top)
 <i title="Go up" class="fas fa-arrow-up"></i>
-
-- My profile on [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+</li></ul>
 
 # My work #
 
-- Plans, maps, and diagrams on [Wikimedia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=en)
+- Profile and selected publications on
+  [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+- Plans, maps, and diagrams on
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=en)
 

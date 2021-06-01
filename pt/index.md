@@ -21,14 +21,18 @@ Urbanismo da Universidade de Brasília](http://www.fau.unb.br) e
 investigador visitante junto ao projeto
 [TechNetEmpire](http://technetempire.fcsh.unl.pt/) na Universidade
 [NOVA]{.smallcaps} de Lisboa. Sou membro do Comitê de documentação do
-conselho científico do Icomos Brasil.
+conselho científico do Icomos Brasil e realizo trabalhos técnicos
+esporádicos em patrimônio cultural e arquitetura tradicional com a
+[Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
+<ul class="contact"><li>
 <i title="Contato" class="fas fa-envelope"></i>
 Contato: via redes sociais (links no topo da página)
 <i title="Subir" class="fas fa-arrow-up"></i>
+</li></ul>
 
 - [Trajetória acadêmica e profissional](trajetoria.md)
-- Meu perfil no [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+- Meu perfil e publicações no [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
 
 # Ensino #
 

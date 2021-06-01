@@ -3,7 +3,7 @@ title: "Pedro P. Palazzo"
 lang: en
 layout: page
 permalink: /en/cv/
-ref: cv
+namespace: cv
 abstract: |
   Architectural historian and preservationist specialising in the
   Beaux-Arts tradition and in vernacular building cultures of the

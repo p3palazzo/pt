@@ -4,7 +4,7 @@ subtitle: "Histoire de la construction et architecture traditionnelle"
 layout: index
 lang  : fr
 permalink: /fr/
-ref   : index
+namespace: index
 ---
 
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){.marginnote}
@@ -20,15 +20,21 @@ d'Architecture et d'Urbanisme de l'Université de
 Brasilia](http://www.fau.unb.br) et chercheur invité auprès du projet de
 recherche [TechNetEmpire](https://technetempire.fcsh.unl.pt/) de
 l'Université [NOVA]{.smallcaps} de Lisbonne. Je suis également membre du
-Comité de documentation d'Icomos Brésil.
+Comité de documentation d'Icomos Brésil et je travaille
+occasionnellement sur la conservation du patrimoine et sur
+l'architecture traditionnelle avec
+[Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
+<ul class="contact"><li>
 <i title="Contact" class="fas fa-envelope"></i>
-Contactez-moi sur mes réseaux sociaux (liens en haut de la page)
-<i title="Monter" class="fas fa-arrow-up"></i>
+Contactez-moi sur mes réseaux sociaux (liens en haut de la page) <i
+title="Monter" class="fas fa-arrow-up"></i>
+</li></ul>
 
-- Je suis sur [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+# Travaux et publications #
 
-# Œuvre non bibliographique #
-
-- Plans, cartes et schémas sur [Wikimédia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=fr)
+- Profil et publications choisies sur
+  [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
+- Plans, cartes et schémas sur
+  [Wikimédia Commons](https://commons.wikimedia.org/wiki/User:Arqpalazzo?uselang=fr)
 

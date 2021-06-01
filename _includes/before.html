@@ -6,11 +6,11 @@
 
 <div id="lang-select">
 {%- if page.layout != 'index' %}
-  {% assign posts=site.posts | where: "ref", page.ref | sort: "lang" -%}
+  {% assign posts=site.posts | where: "namespace", page.namespace | sort: "lang" -%}
   {% for post in posts -%}
     <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
   {%- endfor %}
-  {% assign pages=site.pages | where: "ref", page.ref | sort: "lang" -%}
+  {% assign pages=site.pages | where: "namespace", page.namespace | sort: "lang" -%}
   {% for page in pages -%}
     <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
   {%- endfor %}
@@ -25,11 +25,12 @@
   <a href="/{{ page.lang | default: site.lang }}/cv/" title="Curriculum Vitae"><i title="Curriculum Vitae" class="ai ai-cv"></i></a>
   <a href="https://orcid.org/0000-0002-0187-774X" title="ORCID"><i title="ORCID" class="ai ai-orcid"></i></a>
   <a href="http://lattes.cnpq.br/5767592881382885" title="Currículo Lattes"><i title="Currículo Lattes" class="ai ai-lattes"></i></a>
-  <a href="https://www.cienciavitae.pt//pt/D91E-0C60-B56B" title="Ciência Vit&ae;"><i class="ai ai-ciencia-vitae"></i></a>
+  <a href="https://www.cienciavitae.pt//pt/D91E-0C60-B56B" title="Ciência Vitæ"><i class="ai ai-ciencia-vitae"></i></a>
   <a href="https://unb.academia.edu/PedroPalazzo" title="Academia.edu"><i class="ai ai-academia"></i></a>
   <a href="https://www.researchgate.net/profile/Pedro-Palazzo" title="ResearchGate"><i title="ResearchGate" class="ai ai-researchgate"></i></a>
   <a href="https://osf.io/79vsd/" title="OSF"><i title="OSF" class="ai ai-osf"></i></a>
   <a href="https://linkedin.com/in/p3palazzo" title="LinkedIn"><i title="LinkedIn" class="fab fa-linkedin"></i></a>
+  <a href="https://youtube.com/PedroPauloPalazzo" title="YouTube"><i title="YouTube" class="fab fa-youtube"></i></a>
   <!-- <a href="#" title="Contact"><i title="Contact" class="fas fa-envelope"></i></a> -->
 </nav>
 

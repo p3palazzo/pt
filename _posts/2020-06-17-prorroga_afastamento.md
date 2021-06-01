@@ -3,7 +3,7 @@ title : Prorrogação de pós-doutorado por meio de interrupção da licença
 author: Pedro P. Palazzo
 date  : 2020-06-17
 lang  : pt
-ref   : 2020-prorroga-afastamento
+namespace: 2020-prorroga-afastamento
 sei:
 - id: 23106.091353/2019-46
 - id: 23106.066581/2019-88
