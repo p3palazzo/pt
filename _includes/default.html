@@ -19,12 +19,19 @@
 
     {{ content }}
 
-    {% if page.layout != 'index' %}
-    <section>
-      <p class="signoff"><em><a href="{{ site.baseurl }}/{{ page.lang | default: site.lang }}">Home</a></em></p>
-    </section>
-    {% endif %}
   </article>
+  {% if page.layout != 'index' %}
+  <section>
+    <p class="signoff">
+      <a href="{{ site.baseurl }}/{{ page.lang | default: site.lang }}" title="home">
+        <i title="Home" class="fas fa-home"></i>
+      </a>
+      <a href="#" title="top">
+        <i title="Top" class="fas fa-arrow-up"></i>
+      </a>
+    </p>
+  </section>
+  {% endif %}
 
   {% include after.html %}
   {% include math.html %}
