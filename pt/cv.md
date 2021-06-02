@@ -19,20 +19,7 @@ namespace: cv
 | [ICC]{.smallcaps} Norte [ASS--585/9]{.smallcaps}
 | Brasília [DF]{.smallcaps} 70.910--900
 
-#### Coordenador do grupo de investigação ####
-
-|  
-| Documentação, Modelagem e Conservação
-| do Património
-| www.labeurbe.unb.br
-
-#### Áreas de investigação ####
-
-História da urbanização e da construção tradicional e vernácula no mundo
-luso-brasileiro. Teoria e crítica da arte e da arquitetura na transição
-entre o mundo clássico e a modernidade.
-
-#### Formação académica #### {.cv}
+#### Formação acadêmica #### {.cv}
 
 2010
 : Doutor em Estética e Semiótica da Arquitetura e do Urbanismo
@@ -43,7 +30,7 @@ entre o mundo clássico e a modernidade.
 : Universidade de Brasília
 
 2005
-: Licenciado em Arquitetura e Urbanismo
+: Arquiteto e Urbanista
 : Universidade de Brasília
 
 2003
@@ -54,55 +41,75 @@ entre o mundo clássico e a modernidade.
 \columnsend
 ```
 
-# Investigação # {.cv}
+# Projetos de pesquisa # {.cv}
+
+2020--
+: *Estratégias adaptativas na construção tradicional*
+: Projeto de pesquisa financiado pelo Conselho Nacional para o
+  Desenvolvimento Científico e Tecnológico (CNPq), Brasil.
 
 2019--2020
 : *Raízes portuguesas da arquitetura brasileira na Belle Époque*
 : Investigador visitante no Centro de Estudos Sociais da Universidade de
   Coimbra.
 
-2019--
-: *Estratégias adaptativas na construção tradicional*
-: Projeto de investigação financiado pelo Conselho Nacional para o
-  Desenvolvimento Científico e Tecnológico (CNPq), Brasil.
-
 2018--
 : *Clássico, Tradicional, Eclético: nacionalismo e cosmopolitismo
-  no longo século \textsc{\MakeLowercase{XIX}}*
+  no longo século [XIX]{.smallcaps}*
 : Projeto de investigação financiado pela Fundação de Apoio à Pesquisa do
-  Distrito Federal \textsc{\MakeLowercase{(FAP--DF)}}, Brasil.
+  Distrito Federal [(FAP--DF)]{.smallcaps}, Brasil.
 
 2015
 : Menção honrosa no prémio Nova Arquitetura de Brasília, concedido pelo
-  Instituto de Arquitetos do Brasil, ao *Inventário [Inquérito] do
+  Instituto de Arquitetos do Brasil, ao *Inventário do
   Setor Tradicional de Planaltina* produzido para o Instituto do
   Patrimônio Histórico e Artístico Nacional
-  \textsc{\MakeLowercase{(IPHAN)}}.
+  [(IPHAN)]{.smallcaps}.
 
 2014--2018
 : *Urbanização, arte e crítica na primeira República brasileira*
 : Projeto de investigação financiado pela Coordenação de Aperfeiçoamento do
-  Pessoal de Nível Superior \textsc{\MakeLowercase{(CAPES)}}, Brasil.
+  Pessoal de Nível Superior [(CAPES)]{.smallcaps}, Brasil.
 
-# Vínculos profissionais # {.cv}
+# Vínculos profissionais e científicos # {.cv}
+
+#### Universidade de Brasília, Faculdade de Arquitetura e Urbanismo ####
+
+2020--
+~ Professor associado
+
+2016--2020
+~ Professor adjunto
+
+#### Universidade Federal do Rio de Janeiro, Escola de Belas Artes ####
 
 2014--2016
-: Universidade Federal do Rio de Janeiro, Escola de Belas Artes
-: Professor Auxiliar.
+~ Professor adjunto
+
+#### Ábaco Arquitetura ####
+
+2008--2010
+~ Sócio-diretor
+
+2010--
+~ Sócio minoritário, consultor técnico
+
+#### *Journal of Urbanism* (Taylor and Francis) ####
 
 2008--
-: *Journal of Urbanism* (Taylor and Francis)
-: Membro do conselho editorial.
+~ Membro do conselho editorial
 
-Membro do comité científico de periódicos 
-: :
-: *Journal of Traditional Building, Architecture, and Urbanism*
-  \textsc{\MakeLowercase{INTBAU}} España
-: *Paranoá: cadernos de arquitetura e urbanismo*
+#### Membro de comissões científicas  ####
+
+ 
+~ Icomos Brasil, Comitê Científico, seção de Documentação
+~ *Journal of Traditional Building, Architecture, and Urbanism*
+  [INTBAU]{.smallcaps} España
+~ *Paranoá: cadernos de arquitetura e urbanismo*
   Universidade de Brasília
-: *Pós* Faculdade de Arquitetura e Urbanismo da Universidade de São
+~ *Pós* Faculdade de Arquitetura e Urbanismo da Universidade de São
   Paulo
-: *Urbana* Universidade Estadual de Campinas
+~ *Urbana* Universidade Estadual de Campinas
 
 # Orientações relevantes # {.cv}
 

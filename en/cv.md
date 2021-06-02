@@ -26,7 +26,6 @@ abstract: |
 | Centro de Humanidades [(CHAM)]{.smallcaps}
 | Universidade [NOVA]{.smallcaps} de Lisboa
 | TechNetEmpire research project
-| +351 914 896 380
 
 #### Associate professor ####
 
@@ -36,8 +35,6 @@ abstract: |
 | Campus Darcy Ribeiro Gleba A
 | [ICC]{.smallcaps} Norte [ASS--585/9]{.smallcaps}
 | Brasília [DF]{.smallcaps} 70.910--900
-| www.fau.unb.br · palazzo@unb.br
-| +55 61 31 07 74 49
 
 #### Partner, Consultant ####
 
@@ -45,15 +42,14 @@ abstract: |
 | Ábaco Arquitetura *&* Design Ambiental
 | [SGAN]{.smallcaps} 912 Módulo C Sala [A--13]{.smallcaps}
 | Brasília [DF]{.smallcaps} 70.790--123
-| www.abaco-arquitetura.com.br
-| palazzo@abaco-arquitetura.com.br
+| [www.abaco-arquitetura.com.br](http://www.abaco-arquitetura.com.br)
 
 #### Research group leader ####
 
 |  
 | Documentation, Modelling, and Conservation
 | of Historic Sites
-| www.labeurbe.unb.br
+| [www.labeurbe.unb.br](http://www.labeurbe.unb.br)
 
 \columnbreak
 
