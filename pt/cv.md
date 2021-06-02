@@ -3,7 +3,7 @@ title : "Pedro P. Palazzo"
 lang  : pt
 layout: page
 permalink: /pt/cv/
-ref   : cv
+namespace: cv
 ---
 
 ```{=latex}
@@ -16,11 +16,8 @@ ref   : cv
 | Universidade de Brasília
 | Faculdade de Arquitetura e Urbanismo
 | Campus Darcy Ribeiro Gleba A
-| \MakeLowercase{\textsc{ICC}} Norte \MakeLowercase{\textsc{ASS--585/9}}
-| Brasília \MakeLowercase{\textsc{DF}} 70.910--900
-| www.fau.unb.br
-| palazzo@unb.br
-| +55 61 31 07 74 49
+| [ICC]{.smallcaps} Norte [ASS--585/9]{.smallcaps}
+| Brasília [DF]{.smallcaps} 70.910--900
 
 #### Coordenador do grupo de investigação ####
 
@@ -28,19 +25,6 @@ ref   : cv
 | Documentação, Modelagem e Conservação
 | do Património
 | www.labeurbe.unb.br
-
-#### Sócio, Consultor ####
-
-|  
-| Ábaco Arquitetura & Design Ambiental
-| \MakeLowercase{\textsc{SGAN}} 912 Módulo C Sala \MakeLowercase{\textsc{A--13}}
-| Brasília \MakeLowercase{\textsc{DF}} 70.790--123
-| www.abaco-arquitetura.com.br
-| palazzo@abaco-arquitetura.com.br
-
-```{=latex}
-\columnbreak
-```
 
 #### Áreas de investigação ####
 
