@@ -15,6 +15,7 @@ JEKYLL/PANDOC := docker run --rm -v "`pwd`:/srv/jekyll" \
 PANDOC/CROSSREF := docker run --rm -v "`pwd`:/data" \
 	-u "`id -u`:`id -g`" pandoc/crossref:$(PANDOC-VERSION)
 PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
+	-v "`pwd`/assets/fonts:/usr/share/fonts" \
 	-u "`id -u`:`id -g`" palazzo/pandoc-ebgaramond:$(PANDOC-VERSION)
 
 # Targets and recipes {{{1
@@ -22,6 +23,11 @@ PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
 %.pdf : %.md $(DEFAULTS) \
 	| _csl/chicago-fullnote-bibliography-with-ibid.csl
 	$(PANDOC/LATEX) -d _spec/defaults.yaml -o $@ $<
+	@echo "$< > $@"
+
+_book/letter/%.pdf : _letter/%.md latex.yaml
+	@mkdir -p $(@D)
+	@$(PANDOC/LATEX) -d _spec/latex.yaml -o $@ $<
 	@echo "$< > $@"
 
 %.docx : %.md $(DEFAULTS) reference.docx \
@@ -35,7 +41,7 @@ _site : | _csl/chicago-fullnote-bibliography-with-ibid.csl
 	"chmod 777 /srv/jekyll && jekyll build"
 
 _csl/%.csl : _csl
-	@cd _csl && git checkout master -- $(@F)
+	@cd $(@D) && git checkout master -- $(@F)
 	@echo "Checked out $(@F)."
 
 # Install and cleanup {{{1
