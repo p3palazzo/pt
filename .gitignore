@@ -6,8 +6,6 @@
 # and R. As a bonus, there are some standard ignore patterns for Windows
 # and Mac.
 
-_share
-
 # Jekyll {{{1
 _csl/
 _site/
@@ -19,11 +17,13 @@ Gemfile.lock
 .bundle/
 
 # eBook build output {{{1
+_book
 *.epub
 *.mobi
 #*.pdf
 
 # LaTeX {{{ 1
+assets/fonts/.uuid
 ## Core latex/pdflatex auxiliary files: {{{2
 *.aux
 *.lof
@@ -266,83 +266,4 @@ TSWLatexianTemp*
 
 # generated if using elsarticle.cls
 *.spl
-
-# Word processors and other binary cruft {{{1
-# LibreOffice locks
-.~lock.*#
-*.tmp
-
-# Word temporary
-~$*.doc*
-
-# Word Auto Backup File
-Backup of *.doc*
-
-# Excel temporary
-~$*.xls*
-
-# Excel Backup File
-*.xlk
-
-# PowerPoint temporary
-~$*.ppt*
-
-# Node rules: {{{1
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
-
-# Windows {{{1
-# Temporary
-.netrwhist
-*~
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows shortcuts
-*.lnk
-
-# MacOS {{{1
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
 
