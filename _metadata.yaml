@@ -1,0 +1,7 @@
+mainfont       : "UnB Pro"
+mainfontoptions:
+  - Numbers        = Proportional
+  - BoldFont       = UnBPro-Bold
+  - ItalicFont     = UnBPro-RegularItalic
+  - BoldItalicFont = UnBPro-BoldItalic
+sansfont       : "UnB Pro-Light"
