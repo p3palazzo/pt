@@ -6,7 +6,7 @@ vpath %.csl .:_csl
 vpath default.% .:_lib
 vpath reference.% .:_lib
 
-DEFAULTS := defaults.yaml _bibliography/references.bib
+DEFAULTS := defaults.yaml _metadata.yaml _bibliography/references.bib
 JEKYLL-VERSION := 4.2.0
 PANDOC-VERSION := 2.14
 JEKYLL/PANDOC := docker run --rm -v "`pwd`:/srv/jekyll" \
@@ -25,7 +25,7 @@ PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
 	$(PANDOC/LATEX) -d _spec/defaults.yaml -o $@ $<
 	@echo "$< > $@"
 
-_book/letter/%.pdf : _letter/%.md latex.yaml
+_book/letter/%.pdf : _letter/%.md letter.yaml _metadata.yaml
 	@mkdir -p $(@D)
 	@$(PANDOC/LATEX) -d _spec/latex.yaml -o $@ $<
 	@echo "$< > $@"
@@ -36,7 +36,7 @@ _book/letter/%.pdf : _letter/%.md latex.yaml
 	@echo "$< > $@"
 
 .PHONY : _site
-_site : | _csl/chicago-fullnote-bibliography-with-ibid.csl
+_site : 
 	@$(JEKYLL/PANDOC) /bin/bash -c \
 	"chmod 777 /srv/jekyll && jekyll build"
 
@@ -47,7 +47,7 @@ _csl/%.csl : _csl
 # Install and cleanup {{{1
 # ===================
 .PHONY : serve
-serve : | _csl/chicago-fullnote-bibliography-with-ibid.csl
+serve : 
 	@$(JEKYLL/PANDOC) jekyll serve
 
 .PHONY : _csl
