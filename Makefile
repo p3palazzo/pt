@@ -36,7 +36,7 @@ _book/letter/%.pdf : _letter/%.md letter.yaml _metadata.yaml
 	@echo "$< > $@"
 
 .PHONY : _site
-_site : | _csl/chicago-fullnote-bibliography-with-ibid.csl
+_site : 
 	@$(JEKYLL/PANDOC) /bin/bash -c \
 	"chmod 777 /srv/jekyll && jekyll build"
 
@@ -47,7 +47,7 @@ _csl/%.csl : _csl
 # Install and cleanup {{{1
 # ===================
 .PHONY : serve
-serve : | _csl/chicago-fullnote-bibliography-with-ibid.csl
+serve : 
 	@$(JEKYLL/PANDOC) jekyll serve
 
 .PHONY : _csl

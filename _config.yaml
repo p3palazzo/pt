@@ -98,7 +98,7 @@ plugins:
 markdown: Pandoc
 pandoc:
   extensions:
-    - csl                : "_csl/chicago-fullnote-bibliography-with-ibid.csl"
+    - csl                : "https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-note-bibliography-with-ibid.csl"
     - defaults           : "_spec/html.yaml"
     - section-divs
 scholar:
