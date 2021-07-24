@@ -77,7 +77,7 @@ jekyll-archives:
     category: category
 
 # Theme
-theme           : tufte-pandoc-jekyll
+theme           : tufte-crossref-jekyll
 
 # Plugins
 plugins:
