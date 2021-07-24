@@ -25,11 +25,7 @@ Documentation committee of Icomos Brazil and do consulting work in
 historic preservation and traditional architecture through
 [Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
-<ul class="contact"><li>
-<i title="Contact" class="fas fa-envelope"></i>
 Contact and inquiries through my social networks (links on top)
-<i title="Go up" class="fas fa-arrow-up"></i>
-</li></ul>
 
 # My work #
 
