@@ -227,6 +227,9 @@ Upcoming book chapter
   l'épreuve des transferts culturels*, eds. Marianna Cardoso and Hélène
   Jannière.
 
+2021
+~ {% reference palazzo:2021programa %}
+
 2020
 : {% reference palazzo:2020relacoes %}
 

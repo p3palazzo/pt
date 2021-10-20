@@ -44,6 +44,14 @@ namespace: cv
 # Projetos de pesquisa # {.cv}
 
 2020--
+: *TechNetEmpire: Redes técnico-científicas na formação do
+  ambiente construído no Império Português (1647--1871)*
+: Líderes: Alice Faria e Renata Araujo,
+  [NOVA--FCSH--CHAM]{.smallcaps}
+: Financiado pela [FCT]{.smallcaps}, Fundação para a
+  Ciência e Tecnologia (Portugal).
+
+2020--
 : *Estratégias adaptativas na construção tradicional*
 : Projeto de pesquisa financiado pelo Conselho Nacional para o
   Desenvolvimento Científico e Tecnológico (CNPq), Brasil.
@@ -129,6 +137,9 @@ namespace: cv
 : {% reference lima:2018narrativas %}
 
 # Publicações relevantes # {.cv}
+
+2021
+~ {% reference palazzo:2021programa %}
 
 2020
 : {% reference palazzo:2020literary32 %}
