@@ -177,6 +177,9 @@ Article accepted for publication
   Adaptations,' *Journal of Traditional Building, Architecture and
   Urbanism* no. 2 (2021).
 
+2021
+: {% reference palazzo:2021death %}
+
 2020
 : {% reference palazzo:2020literary32 %}
 
