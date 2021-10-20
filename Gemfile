@@ -2,7 +2,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2"
 # This is the default theme for new Jekyll sites.
 # You may change this to anything you like.
-gem "tufte-crossref-jekyll", "~> 0.12.0.2"
+gem "minimal-mistakes-jekyll", "~> 4.24.0"
 group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-data"
