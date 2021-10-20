@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.2"
-# This is the default theme for new Jekyll sites.
-# You may change this to anything you like.
-gem "minimal-mistakes-jekyll", "~> 4.24.0"
+gem "minimal-mistakes-jekyll", "~> 4.24"
+gem "bibtex-ruby"
+gem "sassc"
+gem "stringex"
+gem "webrick"
 group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-data"
@@ -16,9 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-scholar"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "sassc"
-  gem "stringex"
-  gem "webrick"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -10,7 +10,7 @@ classoption:
 - fromlogo
 - footsepline=true
 - subject=titled
-layout: page
+layout: single
 lang: pt-BR
 ---
 

@@ -48,7 +48,7 @@ _csl/%.csl : _csl
 # ===================
 .PHONY : serve
 serve : 
-	@$(JEKYLL/PANDOC) jekyll serve
+	@$(JEKYLL/PANDOC) jekyll serve --future
 
 .PHONY : _csl
 _csl :

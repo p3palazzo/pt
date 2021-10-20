@@ -63,67 +63,67 @@ including before and after the course itself.
 Work samples
 ============
 
-{% include fig.html
-src="https://www.integra.unb.br/s/n3Zm4oHGRkrn3i3/preview"
+{% include figure
+image_path="https://www.integra.unb.br/s/n3Zm4oHGRkrn3i3/preview"
 caption="Proposed plan of Beirã. Marvão Summer School, 2018 "
-alt="Proposed plan of Beirã. Marvão Summer School, 2018" %}
+alt="Proposed plan of Beirã. Marvão Summer School, 2018"
+%}
 
-{% include fig.html caption='Title image for the <em>Arquitetura
-tradicional do Brasil</em> project, <a
-href="http://instagram.com/arqtrad/">\@arqtrad on Instagram</a>'
-alt="Title image for the Arquitetura tradicional do Brasil project"
-src="https://www.integra.unb.br/s/S3z7ogYLqQPP5yr/preview" %}
+{% include figure
+image_path="https://www.integra.unb.br/s/S3z7ogYLqQPP5yr/preview"
+caption='Title image for the <em>Arquitetura tradicional do Brasil</em> project, <a href="http://instagram.com/arqtrad/">\@arqtrad on Instagram</a>' alt="Title image for the Arquitetura tradicional do Brasil project"
+%}
 
-{% include fig.html
-src="https://www.integra.unb.br/s/wbAxYqgDzoTxYaY/preview" caption="Part
+{% include figure
+image_path="https://www.integra.unb.br/s/wbAxYqgDzoTxYaY/preview" caption="Part
 of a housing compound for an extended family in Brasilia, Brazil.
 Conceptual design stage. Façade" alt="Part of a housing compound for an
 extended family in Brasilia, Brazil. Conceptual design stage. Façade "
 %}
 
-{% include fig.html
-src="https://www.integra.unb.br/s/i5mq5CaXtqdoNLb/preview" caption="Part
+{% include figure
+image_path="https://www.integra.unb.br/s/i5mq5CaXtqdoNLb/preview" caption="Part
 of a housing compound for an extended family in Brasilia, Brazil. This
 project uses a proportional grid based on the traditional Portuguese
 yard (*braça* = 1.1 metre). Conceptual design stage. First floor plan"
 alt="Part of a housing compound for an extended family in Brasilia,
 Brazil." %}
 
-{% include fig.html
-src="https://www.integra.unb.br/s/QcfdMFKNyYLNaXR/preview" caption="Part
+{% include figure
+image_path="https://www.integra.unb.br/s/QcfdMFKNyYLNaXR/preview" caption="Part
 of a housing compound for an extended family in Brasilia, Brazil.
 Conceptual design stage. Second floor plan" alt="Part of a housing
 compound for an extended family in Brasilia, Brazil. Conceptual design
 stage. Second floor plan" %}
 
-{% include fig.html
-src="https://www.integra.unb.br/s/spXzaB9Ezztk3Jr/preview"
+{% include figure
+image_path="https://www.integra.unb.br/s/spXzaB9Ezztk3Jr/preview"
 caption="Study sketch in Montemor-o-Velho, Portugal, 2019" alt="Study
 sketch in Montemor-o-Velho, Portugal, 2019" %}
 
-{% include fig.html
-src="https://www.integra.unb.br/s/3g55BNbt3y2FD2b/preview"
+{% include figure
+image_path="https://www.integra.unb.br/s/3g55BNbt3y2FD2b/preview"
 caption="Study sketch in Castelo de Vide, Portugal. Marvão Summer
 School, 2018" alt="Study sketch in Castelo de Vide, Portugal. Marvão
 Summer School, 2018" %}
 
-{% include fig.html
-src="https://www.integra.unb.br/s/M2SSqJQ8qa9acN7/preview"
+{% include figure
+image_path="https://www.integra.unb.br/s/M2SSqJQ8qa9acN7/preview"
 caption="Study sketch of Vitruvius's basilica at Fano, 2019" alt="Study
 sketch of Vitruvius's basilica at Fano, 2019" %}
 
-{% include fig.html
-src="https://live.staticflickr.com/3862/14477022670_11452987a9_c_d.jpg"
+{% include figure
+image_path="https://live.staticflickr.com/3862/14477022670_11452987a9_c_d.jpg"
 caption="Former Jesuit church of S. Lourenço, Porto, 2014" alt="Former
 Jesuit church of S. Lourenço, Porto, 2014" %}
 
-{% include fig.html
-src="https://live.staticflickr.com/1800/30222691318_82227ebdcd_c_d.jpg"
+{% include figure
+image_path="https://live.staticflickr.com/1800/30222691318_82227ebdcd_c_d.jpg"
 caption="S. Antão church, Évora, 2018" alt="S. Antão church, Évora,
 2018" %}
 
-{% include fig.html
-src="https://live.staticflickr.com/1813/30222912708_fd9290f177_c_d.jpg"
+{% include figure
+image_path="https://live.staticflickr.com/1813/30222912708_fd9290f177_c_d.jpg"
 caption="Elvas cathedral, 2018" alt="Elvas cathedral, 2018" %}
 
 

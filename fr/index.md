@@ -1,7 +1,7 @@
 ---
 title : "Pedro P. Palazzo"
 subtitle: "Histoire de la construction et architecture traditionnelle"
-layout: index
+layout: single
 lang  : fr
 permalink: /fr/
 namespace: index

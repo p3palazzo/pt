@@ -2,7 +2,7 @@
 author: "Pedro P. Palazzo"
 date  : "25 November 2020"
 lang  : en-GB
-layout: page
+layout: single
 header-includes:
 - |
   \address{%

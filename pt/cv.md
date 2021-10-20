@@ -1,7 +1,7 @@
 ---
 title : "Pedro P. Palazzo"
 lang  : pt
-layout: page
+layout: single
 permalink: /pt/cv/
 namespace: cv
 ---

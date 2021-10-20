@@ -1,7 +1,7 @@
 ---
 title : "Trajetória acadêmica e profissional"
 date  : 2019-07-06
-layout: page
+layout: single
 lang  : pt
 namespace: trajetoria
 ---

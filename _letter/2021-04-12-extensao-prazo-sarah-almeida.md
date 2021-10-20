@@ -2,7 +2,7 @@
 author: "Pedro Paulo Palazzo"
 date: "12 de abril de 2021"
 lang: pt-BR
-layout: page
+layout: single
 include-before:
 - |
   ```{=latex}
