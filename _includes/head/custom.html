@@ -1,0 +1,9 @@
+{% include head.html %}
+{% assign posts=site.posts | where:"namespace", page.namespace | sort: 'lang' %}
+{% for post in posts %}
+  <link rel="alternate" hreflang="{{ post.lang | default: site.lang }}" href="{{ post.url }}" />
+{% endfor %}
+{% assign pages=site.pages | where:"namespace", page.namespace | sort: 'lang' %}
+{% for page in pages %}
+  <link rel="alternate" hreflang="{{ page.lang | default: site.lang }}" href="{{ page.url }}" />
+{% endfor %}
