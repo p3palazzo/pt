@@ -1,17 +1,17 @@
 # General
-theme           : "minimal-mistakes-jekyll"
-title           : "Pedro P. Palazzo"
-title_separator : "-"
-name            : "Pedro P. Palazzo"
+theme                    : "minimal-mistakes-jekyll"
+title                    : "Pedro P. Palazzo"
+title_separator          : "-"
+name                     : "Pedro P. Palazzo"
 description: >-
   Pesquiso arquitetura tradicional do Brasil. Sou professor na
   Universidade de Brasília e coordenador do grupo de pesquisa
   Documentação, Modelagem e Conservação do Patrimônio. Este site é um
   ajuda-memória para mim mesmo, registrando minha trajetória profissional
   de um jeito mais acessível do que o curriculum Lattes!
-baseurl         : ""
-url             : "https://palazzo.arq.br"
-locale          : "en-US"
+baseurl                  : ""
+url                      : "https://palazzo.arq.br"
+locale                   : "en-US"
 repository               : "p3palazzo/p3palazzo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -141,14 +141,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
-
-# Multilingual
-languages       : [ "en", "pt", "fr" ]
-default_locale_in_subfolder: true
-exclude_from_localizations:
-  - reveal.js
-  - assets
 
 
 collections:
