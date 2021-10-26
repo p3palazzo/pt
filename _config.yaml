@@ -144,25 +144,8 @@ footer:
 
 
 collections:
-  ensino:
-    output      : true
-    permalink   : /:collection/:name
-  ext:
-    output      : true
-    permalink   : /:collection/:name
-  org:
-    output      : true
-    permalink   : /:collection/:name
-  pers:
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
-  projeto:
-    output      : true
-    permalink   : /:collection/:name
-  rede:
-    output      : true
-    permalink   : /:collection/:name
-  tese:
 
 
 # Plugins
@@ -351,7 +334,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
