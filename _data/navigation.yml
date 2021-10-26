@@ -3,7 +3,7 @@ main:
     url  : '/cv/'
   - title: '<i title="ORCID" class="ai ai-orcid-square" aria-hidden="true"></i>'
     url  : 'https://orcid.org/0000-0002-0187-774X'
-  - title: '<i class="ai ai-ciencia-vitae-square" aria-hidden="true"></i>'
+  - title: '<i title="Ciência Vitae" class="ai ai-ciencia-vitae-square" aria-hidden="true"></i>'
     url  : 'https://www.cienciavitae.pt//pt/D91E-0C60-B56B'
   - title: '<i title="Currículo Lattes" class="ai ai-lattes-square" aria-hidden="true"></i>'
     url  : 'http://lattes.cnpq.br/5767592881382885'

@@ -144,8 +144,6 @@ footer:
 
 
 collections:
-  pages:
-    permalink   : /:name/
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
   patrimonio:
