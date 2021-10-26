@@ -25,7 +25,7 @@ esporádicos em patrimônio cultural e arquitetura tradicional com a
 
 Contato: via redes sociais (links no topo da página)
 
-- [Trajetória acadêmica e profissional](trajetoria.md)
+- [Trajetória acadêmica e profissional]({% link _pages/trajetoria.md %})
 - Meu perfil e publicações no [Humanities Commons](https://sah.hcommons.org/members/palazzo/)
 
 ## Ensino ##
