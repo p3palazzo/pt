@@ -11,7 +11,7 @@ description: >-
   de um jeito mais acessível do que o curriculum Lattes!
 baseurl                  : "/pt"
 url                      : "https://palazzo.arq.br"
-locale                   : "pt-BR"
+locale                   : "pt-PT"
 repository               : "p3palazzo/p3palazzo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
