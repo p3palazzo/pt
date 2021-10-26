@@ -159,7 +159,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
-  #- jekyll-paginate
+  - jekyll-paginate
   - jekyll-pandoc
   - jekyll-redirect-from
   - jekyll-relative-links
@@ -169,7 +169,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  #- jekyll-paginate
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -186,12 +186,12 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
+  input: kramdown
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..3
+  toc_levels: 1..2
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 pandoc:

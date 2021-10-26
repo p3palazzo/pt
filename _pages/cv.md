@@ -2,18 +2,19 @@
 title : "Curriculum Vitæ"
 permalink: /cv/
 classes: cv
+toc: true
 ---
 
-##### Professor associado #####
+ 
+: <span class="newthought">Professor associado</span>
+: \\
+  Universidade de Brasília  
+  Faculdade de Arquitetura e Urbanismo  
+  Campus Darcy Ribeiro Gleba A  
+  <span class="smallcaps">ICC</span> Norte <span class="smallcaps">ASS--585/9</span>  
+  Brasília <span class="smallcaps">DF</span> 70.910--900
 
-\\
-Universidade de Brasília  
-Faculdade de Arquitetura e Urbanismo  
-Campus Darcy Ribeiro Gleba A  
-<span class="smallcaps">ICC</span> Norte <span class="smallcaps">ASS--585/9</span>  
-Brasília <span class="smallcaps">DF</span> 70.910--900
-
-##### Formação acadêmica #####
+## Formação acadêmica ##
 
 2010
 : Doutor em Estética e Semiótica da Arquitetura e do Urbanismo
@@ -71,35 +72,47 @@ Brasília <span class="smallcaps">DF</span> 70.910--900
 
 ## Vínculos profissionais e científicos ##
 
-##### Universidade de Brasília, Faculdade de Arquitetura e Urbanismo #####
+ 
+
+: <span class="newthought">Universidade de Brasília, Faculdade de Arquitetura e Urbanismo</span>
 
 2020--
 : Professor associado
 
 2016--2020
 : Professor adjunto
+:  
 
-##### Universidade Federal do Rio de Janeiro, Escola de Belas Artes #####
+ 
+
+: <span class="newthought">Universidade Federal do Rio de Janeiro, Escola de Belas Artes</span>
 
 2014--2016
 : Professor adjunto
+:  
 
-##### Ábaco Arquitetura #####
+ 
+
+: <span class="newthought">Ábaco Arquitetura</span>
 
 2008--2010
 : Sócio-diretor
 
 2010--
 : Sócio minoritário, consultor técnico
+:  
 
-##### *Journal of Urbanism* (Taylor and Francis) #####
+ 
+
+: <span class="newthought">*Journal of Urbanism* (Taylor and Francis)
 
 2008--
 : Membro do conselho editorial
-
-##### Membro de comissões científicas  #####
+:  
 
  
+
+: <span class="newthought">Membro de comissões científicas</span>
 : Icomos Brasil, Comitê Científico, seção de Documentação
 : *Journal of Traditional Building, Architecture, and Urbanism*
   <span class="smallcaps">INTBAU</span> España
