@@ -148,10 +148,13 @@ collections:
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
   inv:
+    output      : true
     permalink   : /:collection/:name/
   pat:
+    output      : true
     permalink   : /:collection/:name/
   vis:
+    output      : true
     permalink   : /:collection/:name/
 
 
@@ -344,5 +347,26 @@ defaults:
       author_profile: false
       read_time: true
       comments: # true
+      share: true
+      related: true
+  # _inv
+  - scope:
+      path: ""
+      type: inv
+    values:
+      share: true
+      related: true
+  # _pat
+  - scope:
+      path: ""
+      type: pat
+    values:
+      share: true
+      related: true
+  # _vis
+  - scope:
+      path: ""
+      type: vis
+    values:
       share: true
       related: true
