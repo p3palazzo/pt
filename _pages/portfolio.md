@@ -8,21 +8,24 @@ header:
   overlay_image: https://live.staticflickr.com/1811/43372602754_dcfd4f775b_k_d.jpg
   overlay_filter: 0.5
   actions:
-  - label: "e-mail"
+  - label: "Contacto"
     url  : mailto:pedro.palazzo@gmail.com
 feature_row:
 - image_path:
   title: "Investigação"
   excerpt: "Lorem ipsum"
   btn_label: "Lista de publicações"
+  btn_class: btn--primary
   url: "/inv/"
 - image_path:
   title: "Património e arquitetura tradicional"
   btn_label: "Projetos"
+  btn_class: btn--primary
   url: "/pat/"
 - image_path:
   title: "Visualização"
   btn_label: "Portfolio"
+  btn_class: btn--primary
   url: "/vis/"
 ---
 
