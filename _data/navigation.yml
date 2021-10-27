@@ -7,7 +7,7 @@ main:
     url  : 'https://www.cienciavitae.pt//pt/D91E-0C60-B56B'
   - title: '<i title="Currículo Lattes" class="ai ai-lattes-square" aria-hidden="true"></i>'
     url  : 'http://lattes.cnpq.br/5767592881382885'
-  - title: '<i class="ai ai-academia-square" aria-hidden="true"></i>'
+  - title: '<i title="Academia.edu" class="ai ai-academia-square" aria-hidden="true"></i>'
     url  : 'https://unb.academia.edu/PedroPalazzo'
   - title: '<i title="ResearchGate" class="ai ai-researchgate-square" aria-hidden="true"></i>'
     url  : 'https://www.researchgate.net/profile/Pedro-Palazzo'
