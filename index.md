@@ -1,8 +1,6 @@
 ---
-title : "Pedro P. Palazzo"
-subtitle: "Construction history and traditional architecture"
-layout: home
-lang  : en
-redirect_to: "/en/"
+layout: single
+page_js:
+- /assets/js/redirect.js
 ---
 

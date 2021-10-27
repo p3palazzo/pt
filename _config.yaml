@@ -11,7 +11,7 @@ description: >-
   de um jeito mais acessível do que o curriculum Lattes!
 baseurl         : ""
 url             : "https://palazzo.arq.br"
-locale          : "en-US"
+locale          : "pt-BR"
 repository               : "p3palazzo/p3palazzo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -147,7 +147,6 @@ footer:
 languages       : [ "en", "pt", "fr" ]
 default_locale_in_subfolder: true
 exclude_from_localizations:
-  - reveal.js
   - assets
 
 
@@ -180,7 +179,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
-  #- jekyll-paginate
+  - jekyll-paginate
   - jekyll-pandoc
   - jekyll-redirect-from
   - jekyll-relative-links
@@ -190,7 +189,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  #- jekyll-paginate
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
