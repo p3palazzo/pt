@@ -1,5 +1,6 @@
 ---
 title: "Construção tradicional, património cultural e representação digital da arquitetura"
+excerpt: "Lorem Ipsum, dolor sit amet"
 layout: home
 classes: wide
 entries_layout: grid
@@ -7,14 +8,20 @@ permalink: /splash/
 header:
   overlay_image: https://live.staticflickr.com/1811/43372602754_dcfd4f775b_k_d.jpg
   overlay_filter: 0.5
+  caption: "Castelo de Vide, 2018"
   actions:
   - label: "Contacto"
     url  : mailto:pedro.palazzo@gmail.com
+sidebar:
+  - text: |
+      <i class="fas fa-globe"></i> ·
+      [en](https://palazzo.arq.br/en/) ·
+      [fr](https://palazzo.arq.br/fr/)
 feature_row:
 - image_path:
   title: "Investigação"
   excerpt: "Lorem ipsum"
-  btn_label: "Lista de publicações"
+  btn_label: "Publicações"
   btn_class: btn--primary
   url: "/inv/"
 - image_path:
