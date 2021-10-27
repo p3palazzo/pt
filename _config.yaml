@@ -143,12 +143,15 @@ footer:
       # url:
 
 
+# Content
 collections:
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
-  patrimonio:
+  inv:
     permalink   : /:collection/:name/
-  ilustra:
+  pat:
+    permalink   : /:collection/:name/
+  vis:
     permalink   : /:collection/:name/
 
 

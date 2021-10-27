@@ -15,11 +15,15 @@ feature_row:
   title: "Investigação"
   excerpt: "Lorem ipsum"
   btn_label: "Lista de publicações"
-  url: "/cv/"
+  url: "/inv/"
+- image_path:
+  title: "Património e arquitetura tradicional"
+  btn_label: "Projetos"
+  url: "/pat/"
 - image_path:
   title: "Visualização"
   btn_label: "Portfolio"
-  url: "/cv/"
+  url: "/vis/"
 ---
 
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){: .align-right}
