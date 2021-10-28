@@ -1,6 +1,6 @@
 ---
-title: "Construção tradicional, património cultural e representação digital da arquitetura"
-excerpt: "Lorem Ipsum, dolor sit amet"
+title: "Pedro P. Palazzo"
+excerpt: "Património cultural, Representação digital da arquitetura e História da construção"
 layout: home
 classes: wide
 entries_layout: grid
