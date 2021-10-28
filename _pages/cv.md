@@ -1,25 +1,20 @@
 ---
-title : "Pedro P. Palazzo"
-lang  : pt
-layout: single
-permalink: /pt/cv/
-namespace: cv
+title : "Curriculum Vitæ"
+permalink: /cv/
+classes: cv
+toc: true
 ---
 
-```{=latex}
-\columnsbegin
-```
+ 
+: <span class="newthought">Professor associado</span>
+: \\
+  Universidade de Brasília  
+  Faculdade de Arquitetura e Urbanismo  
+  Campus Darcy Ribeiro Gleba A  
+  <span class="smallcaps">ICC</span> Norte <span class="smallcaps">ASS--585/9</span>  
+  Brasília <span class="smallcaps">DF</span> 70.910--900
 
-#### Professor associado ####
-
-|  
-| Universidade de Brasília
-| Faculdade de Arquitetura e Urbanismo
-| Campus Darcy Ribeiro Gleba A
-| [ICC]{.smallcaps} Norte [ASS--585/9]{.smallcaps}
-| Brasília [DF]{.smallcaps} 70.910--900
-
-#### Formação acadêmica #### {.cv}
+## Formação académica ##
 
 2010
 : Doutor em Estética e Semiótica da Arquitetura e do Urbanismo
@@ -37,18 +32,14 @@ namespace: cv
 : Bacharel em Arquitetura
 : University of Maryland at College Park
 
-```{=latex}
-\columnsend
-```
-
-# Projetos de pesquisa # {.cv}
+## Projetos de investigação ##
 
 2020--
 : *TechNetEmpire: Redes técnico-científicas na formação do
   ambiente construído no Império Português (1647--1871)*
 : Líderes: Alice Faria e Renata Araujo,
-  [NOVA--FCSH--CHAM]{.smallcaps}
-: Financiado pela [FCT]{.smallcaps}, Fundação para a
+  <span class="smallcaps">NOVA--FCSH--CHAM</span>
+: Financiado pela <span class="smallcaps">FCT</span>, Fundação para a
   Ciência e Tecnologia (Portugal).
 
 2020--
@@ -63,63 +54,75 @@ namespace: cv
 
 2018--
 : *Clássico, Tradicional, Eclético: nacionalismo e cosmopolitismo
-  no longo século [XIX]{.smallcaps}*
+  no longo século <span class="smallcaps">XIX</span>*
 : Projeto de investigação financiado pela Fundação de Apoio à Pesquisa do
-  Distrito Federal [(FAP--DF)]{.smallcaps}, Brasil.
+  Distrito Federal <span class="smallcaps">(FAP--DF)</span>, Brasil.
 
 2015
 : Menção honrosa no prémio Nova Arquitetura de Brasília, concedido pelo
   Instituto de Arquitetos do Brasil, ao *Inventário do
   Setor Tradicional de Planaltina* produzido para o Instituto do
   Patrimônio Histórico e Artístico Nacional
-  [(IPHAN)]{.smallcaps}.
+  <span class="smallcaps">(IPHAN)</span>.
 
 2014--2018
 : *Urbanização, arte e crítica na primeira República brasileira*
 : Projeto de investigação financiado pela Coordenação de Aperfeiçoamento do
-  Pessoal de Nível Superior [(CAPES)]{.smallcaps}, Brasil.
+  Pessoal de Nível Superior <span class="smallcaps">(CAPES)</span>, Brasil.
 
-# Vínculos profissionais e científicos # {.cv}
-
-#### Universidade de Brasília, Faculdade de Arquitetura e Urbanismo ####
-
-2020--
-~ Professor associado
-
-2016--2020
-~ Professor adjunto
-
-#### Universidade Federal do Rio de Janeiro, Escola de Belas Artes ####
-
-2014--2016
-~ Professor adjunto
-
-#### Ábaco Arquitetura ####
-
-2008--2010
-~ Sócio-diretor
-
-2010--
-~ Sócio minoritário, consultor técnico
-
-#### *Journal of Urbanism* (Taylor and Francis) ####
-
-2008--
-~ Membro do conselho editorial
-
-#### Membro de comissões científicas  ####
+## Vínculos profissionais e científicos ##
 
  
-~ Icomos Brasil, Comitê Científico, seção de Documentação
-~ *Journal of Traditional Building, Architecture, and Urbanism*
-  [INTBAU]{.smallcaps} España
-~ *Paranoá: cadernos de arquitetura e urbanismo*
-  Universidade de Brasília
-~ *Pós* Faculdade de Arquitetura e Urbanismo da Universidade de São
-  Paulo
-~ *Urbana* Universidade Estadual de Campinas
 
-# Orientações relevantes # {.cv}
+: <span class="newthought">Universidade de Brasília, Faculdade de Arquitetura e Urbanismo</span>
+
+2020--
+: Professor associado
+
+2016--2020
+: Professor adjunto
+:  
+
+ 
+
+: <span class="newthought">Universidade Federal do Rio de Janeiro, Escola de Belas Artes</span>
+
+2014--2016
+: Professor adjunto
+:  
+
+ 
+
+: <span class="newthought">Ábaco Arquitetura</span>
+
+2008--2010
+: Sócio-diretor
+
+2010--
+: Sócio minoritário, consultor técnico
+:  
+
+ 
+
+: <span class="newthought">*Journal of Urbanism* (Taylor and Francis)
+
+2008--
+: Membro do conselho editorial
+:  
+
+ 
+
+: <span class="newthought">Membro de comissões científicas</span>
+: Icomos Brasil, Comitê Científico, seção de Documentação
+: *Journal of Traditional Building, Architecture, and Urbanism*
+  <span class="smallcaps">INTBAU</span> España
+: *Paranoá: cadernos de arquitetura e urbanismo*
+  Universidade de Brasília
+: *Pós* Faculdade de Arquitetura e Urbanismo da Universidade de São
+  Paulo
+: *Urbana* Universidade Estadual de Campinas
+
+## Orientações relevantes ##
 
 2019--2022
 : {% reference oliveira:2022lugares %}
@@ -136,10 +139,10 @@ namespace: cv
 2017--2018
 : {% reference lima:2018narrativas %}
 
-# Publicações relevantes # {.cv}
+## Publicações relevantes ##
 
 2021
-~ {% reference palazzo:2021programa %}
+: {% reference palazzo:2021programa %}
 
 2020
 : {% reference palazzo:2020literary32 %}
