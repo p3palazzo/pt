@@ -2,6 +2,9 @@
 // Detect browser language
 var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
 
+// N.B.: I'm hard-coding this part until I figure out a better way. --Pedro
+var supported = ['en', 'fr', 'pt']
+
 /*
  * Auto switcher
  *
@@ -16,7 +19,6 @@ var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-
  * will return en. If none is supported the function return the default lang
  * (1st of supported array).
  */
-
 function getBestSuitableSupportedLang(lang, locale, supported) {
   // Exclude first element, default language
   var supported_lang = supported.shift();
@@ -29,24 +31,31 @@ function getBestSuitableSupportedLang(lang, locale, supported) {
 
   return supported_lang;
 }
-
 /*
  * NB: we use includes method on array, that is not supported by IE, but who
  * cares about IE ?…
- *
+ */
+
+/*
  * Redirect
  *
  * Then, if current lang of site is different of best suitable returned by
  * function getBestSuitableSupportedLang means we should redirect user. And
  * should works as described below:
  */
-var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
-var supported_languages = ['en', 'fr', 'pt'];
-var current_lang = 'pt';
+//var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
+//var supported_languages = ['en', 'fr', 'pt'];
+var current_lang = document.documentElement.lang;
 
-var suitable_lang = getBestSuitableSupportedLang(lang, locale, supported_languages)
+var suitable_lang = getBestSuitableSupportedLang(lang, locale, supported)
 
-window.location = '/' + suitable_lang + '/';
+/*
+ * Disable this since we need to check landing page, further below --Pedro
+ *
+ *if (current_lang !== suitable_lang) {
+ *  window.location = '/' + suitable_lang + '/';
+ *}
+ */
 
 /*
  * Check if landing page
@@ -65,7 +74,6 @@ var landingPage = !referrer || referrer.indexOf(hostname) == -1;
 if (landingPage && (current_lang !== suitable_lang)) {
   window.location = '/' + suitable_lang + '/';
 }
-
 /*
  * Redirect only home
  *
@@ -75,4 +83,6 @@ if (landingPage && (current_lang !== suitable_lang)) {
  * static-switcher to achieve it). This is done by including the auto-switcher
  * on page only for index.html, using a specific layout for it or a conditional
  * include.
+ *
+ * N.B.: Taken care of by Minimal-Mistakes 'page_js' frontmatter. --Pedro
  */
