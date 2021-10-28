@@ -1,6 +1,7 @@
 ---
-subtitle: "História da construção e arquitetura tradicional"
 layout: single
+page_js:
+- /assets/js/redirect.js
 ---
 
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){: .align-right}

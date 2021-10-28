@@ -1,5 +1,5 @@
 ---
-title : "Trajetória acadêmica e profissional"
+title : "Trajetória académica e profissional"
 date  : 2019-07-06
 permalink: /trajetoria/
 toc: true

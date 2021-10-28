@@ -12,7 +12,7 @@ description: >-
 baseurl                  : "/pt"
 url                      : "https://palazzo.arq.br"
 locale                   : "pt-PT"
-repository               : "p3palazzo/p3palazzo.github.io"
+repository               : "p3palazzo/pt"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : #
@@ -283,7 +283,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /:categories/:title/
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
-timezone: "America/Sao_Paulo"
+timezone: "Europe/Lisbon"
 date_format: "%d/%m/%Y"
 
 

@@ -14,7 +14,7 @@ toc: true
   <span class="smallcaps">ICC</span> Norte <span class="smallcaps">ASS--585/9</span>  
   Brasília <span class="smallcaps">DF</span> 70.910--900
 
-## Formação acadêmica ##
+## Formação académica ##
 
 2010
 : Doutor em Estética e Semiótica da Arquitetura e do Urbanismo
@@ -32,7 +32,7 @@ toc: true
 : Bacharel em Arquitetura
 : University of Maryland at College Park
 
-## Projetos de pesquisa ##
+## Projetos de investigação ##
 
 2020--
 : *TechNetEmpire: Redes técnico-científicas na formação do
