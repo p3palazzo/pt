@@ -39,7 +39,7 @@ feature_row:
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){: .align-right}
 
 Arquiteto e historiador da arquitetura com experiência em preservação e
-gestão de sítios culturais. Investigo as tradições construtivas do
+gestão de sítios culturais. Investiga as tradições construtivas do
 Mediterrâneo ocidental e do mundo lusófono nos séculos <span
 class="smallcaps">XVIII</span> e <span class="smallcaps">XIX</span>, com
 ênfase nas interfaces entre a construção tradicional e a moderna, bem
@@ -50,8 +50,8 @@ Professor associado na [Faculdade de Arquitetura e Urbanismo da
 Universidade de Brasília](http://www.fau.unb.br) e investigador
 visitante junto ao projeto
 [TechNetEmpire](http://technetempire.fcsh.unl.pt/) na Universidade <span
-class="smallcaps">NOVA</span> de Lisboa. Sou membro do Comitê de
-documentação do conselho científico do Icomos Brasil e realizo trabalhos
+class="smallcaps">NOVA</span> de Lisboa. Membro do Comitê de
+documentação do conselho científico do Icomos Brasil e realiza trabalhos
 técnicos esporádicos em patrimônio cultural e arquitetura tradicional
 com a [Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 

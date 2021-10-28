@@ -2,23 +2,29 @@
 layout: single
 page_js:
 - /assets/js/redirect.js
+sidebar:
+  - text: |
+      <i class="fas fa-globe"></i> ·
+      [en](https://palazzo.arq.br/en/) ·
+      [fr](https://palazzo.arq.br/fr/)
 ---
 
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){: .align-right}
 
-Sou arquiteto e historiador da arquitetura com experiência em
-preservação e gestão de sítios culturais. Pesquiso as tradições
+Arquiteto e historiador da arquitetura com experiência em
+preservação e gestão de sítios culturais. Pesquisa as tradições
 construtivas do Mediterrâneo ocidental e do mundo lusófono nos séculos
-<span class="smallcaps">XVIII</span> e <span class="smallcaps">XIX</span>, com ênfase nas interfaces entre
-a construção tradicional e a moderna, bem como entre a arquitetura
+<span class="smallcaps">XVIII</span> e <span
+class="smallcaps">XIX</span>, com ênfase nas interfaces entre a
+construção tradicional e a moderna, bem como entre a arquitetura
 erudita da tradição clássica e as tipologias vernáculas.
 
-Atualmente sou professor associado na [Faculdade de Arquitetura e
+Atualmente professor associado na [Faculdade de Arquitetura e
 Urbanismo da Universidade de Brasília](http://www.fau.unb.br) e
 investigador visitante junto ao projeto
 [TechNetEmpire](http://technetempire.fcsh.unl.pt/) na Universidade
-<span class="smallcaps">NOVA</span> de Lisboa. Sou membro do Comitê de documentação do
-conselho científico do Icomos Brasil e realizo trabalhos técnicos
+<span class="smallcaps">NOVA</span> de Lisboa. Membro do Comitê de documentação do
+conselho científico do Icomos Brasil e realiza trabalhos técnicos
 esporádicos em patrimônio cultural e arquitetura tradicional com a
 [Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 
