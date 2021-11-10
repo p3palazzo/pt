@@ -3,18 +3,50 @@ title : "Curriculum Vitæ"
 permalink: /cv/
 classes: cv
 toc: true
+header:
+  overlay_color: "#2b2b2b00"
+excerpt: |
+  Arquiteto e historiador da arquitetura com experiência em preservação
+  e gestão de sítios culturais. Pesquisa as tradições construtivas do
+  Mediterrâneo ocidental e do mundo lusófono nos séculos <span
+  class="smallcaps">XVIII</span> e <span class="smallcaps">XIX</span>,
+  com ênfase nas interfaces entre a construção tradicional e a moderna,
+  bem como entre a arquitetura erudita da tradição clássica e as
+  tipologias vernáculas.
 ---
 
  
+: <span class="newthought">Investigador visitante</span>
+
+: Centro de Humanidades <span class="smallcaps">(CHAM)</span>  
+  Universidade <span class="smallcaps">NOVA</span> de Lisboa  
+  Projeto de investigação TechNetEmpire
+
+ 
 : <span class="newthought">Professor associado</span>
-: \\
+
   Universidade de Brasília  
   Faculdade de Arquitetura e Urbanismo  
   Campus Darcy Ribeiro Gleba A  
   <span class="smallcaps">ICC</span> Norte <span class="smallcaps">ASS--585/9</span>  
   Brasília <span class="smallcaps">DF</span> 70.910--900
 
-## Formação académica ##
+ 
+: <span class="newthought">Sócio, Consultor</span>
+
+: Ábaco Arquitetura *&* Design Ambiental  
+  <span class="smallcaps">SGAN</span> 912 Módulo C Sala <span class="smallcaps">A--13</span>  
+  Brasília <span class="smallcaps">DF</span> 70.790--123  
+  [www.abaco-arquitetura.com.br](http://www.abaco-arquitetura.com.br)
+
+ 
+: <span class="newthought">Líder do grupo de pesquisa</span>
+
+: Documentação, Modelagem e Conservação do Patrimônio  
+  [www.labeurbe.unb.br](http://www.labeurbe.unb.br)
+
+ 
+: <span class="newthought">Formação académica</span>
 
 2010
 : Doutor em Estética e Semiótica da Arquitetura e do Urbanismo
@@ -140,6 +172,9 @@ toc: true
 : {% reference lima:2018narrativas %}
 
 ## Publicações relevantes ##
+
+2021
+: {% reference palazzo:2021vernacular %}
 
 2021
 : {% reference palazzo:2021programa %}
