@@ -1,7 +1,7 @@
 # Global variables and setup {{{1
 # ================
 VPATH = _lib
-vpath %.yaml .:_spec
+vpath %.yaml .:_spec:_data
 vpath default.% .:_lib
 vpath reference.% .:_lib
 
@@ -11,6 +11,9 @@ PANDOC-VERSION := 2.14.1
 JEKYLL/PANDOC := docker run --rm -v "`pwd`:/srv/jekyll" \
 	-h "0.0.0.0:127.0.0.1" -p "4000:4000" \
 	palazzo/jekyll-tufte:$(JEKYLL-VERSION)-$(PANDOC-VERSION)
+JEKYLL/JEKYLL := docker run --rm -v "`pwd`:/srv/jekyll" \
+	-h "0.0.0.0:127.0.0.1" -p "4000:4000" \
+	jekyll/jekyll:3.8.5
 PANDOC/CROSSREF := docker run --rm -v "`pwd`:/data" \
 	-u "`id -u`:`id -g`" pandoc/crossref:$(PANDOC-VERSION)
 
@@ -18,11 +21,11 @@ PANDOC/CROSSREF := docker run --rm -v "`pwd`:/data" \
 # ===================
 .PHONY : _site
 _site : 
-	@$(JEKYLL/PANDOC) /bin/bash -c \
+	@$(JEKYLL/JEKYLL) /bin/bash -c \
 	"chmod 777 /srv/jekyll && jekyll build"
 
 .PHONY : serve
 serve : 
-	@$(JEKYLL/PANDOC) jekyll serve --future
+	@$(JEKYLL/JEKYLL) jekyll serve --future
 
 # vim: set foldmethod=marker shiftwidth=2 tabstop=2 :

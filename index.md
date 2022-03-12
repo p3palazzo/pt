@@ -4,9 +4,9 @@ page_js:
 - /assets/js/redirect.js
 sidebar:
   - text: |
-      <i class="fas fa-globe"></i> ·
-      [en](https://palazzo.arq.br/en/) ·
-      [fr](https://palazzo.arq.br/fr/)
+      <i class="fas fa-globe"></i> &nbsp;
+      [en](/en/) ·
+      [fr](/fr/)
 ---
 
 ![](https://hcommons.org/app/uploads/sites/1001018/2021/05/pp-0535.jpg){: .align-right}
