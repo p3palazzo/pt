@@ -6,6 +6,9 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
-  gem "jekyll-scholar"
   gem "jekyll-seo-tag"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
 end
