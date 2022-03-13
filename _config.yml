@@ -2,6 +2,7 @@
 remote_theme             : "mmistakes/minimal-mistakes"
 title                    : "Pedro P. Palazzo"
 title_separator          : "-"
+subtitle                 : "Historiador da arquitetura e projetista"
 name                     : "Pedro P. Palazzo"
 description: >-
   Pesquiso arquitetura tradicional do Brasil. Sou professor na
@@ -163,7 +164,6 @@ plugins:
   - jekyll-data
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-scholar
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
