@@ -80,6 +80,16 @@ ul.visible-links {
 /****************************
  * Header overlay gradients *
  ****************************/
+.page__hero--overlay {
+  display: flex;
+  flex-flow: column;
+  // Right now this is an empirical approximation.
+  height: calc(100vh - 64px);
+  @include breakpoint($large) {
+    height: calc(100vh - 88px);
+  }
+}
+
 .page__content {
 	h1,
 	h2 {
