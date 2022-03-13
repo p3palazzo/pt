@@ -1,9 +1,9 @@
 # General
 remote_theme             : "mmistakes/minimal-mistakes"
-title                    : "Pedro P. Palazzo"
+title                    : &name "Pedro P. Palazzo"
 title_separator          : "-"
 subtitle                 : "Historiador da arquitetura e projetista"
-name                     : "Pedro P. Palazzo"
+name                     : *name
 description: >-
   Pesquiso arquitetura tradicional do Brasil. Sou professor na
   Universidade de Brasília e coordenador do grupo de pesquisa
@@ -71,7 +71,7 @@ head_scripts:
 
 # Social Sharing
 twitter:
-  username               : p3palazzo
+  username               : &twitter "p3palazzo"
 facebook:
   username               :
   app_id                 :
@@ -83,6 +83,10 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/p3palazzo"
+    - "https://instagram.com/p3palazzo"
+    - "https://github.com/p3palazzo"
+    - "https://linkedin.com/in/p3palazzo"
 
 
 # Analytics
@@ -95,8 +99,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Pedro P. Palazzo"
-  avatar           : "https://avatars.githubusercontent.com/u/8295666?v=4"
+  name             : *name
+  avatar           : "https://cdn.palazzo.arq.br/portfolio/pp-0535xs.jpg"
   bio              : "Historiador da arquitetura"
   location         : "Coimbra"
   email            : "pedro@palazzo.arq.br"
@@ -119,6 +123,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/p3palazzo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/p3palazzo"
 
 
 # Site Footer
@@ -126,13 +133,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/p3palazzo"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/p3palazzo"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -141,7 +148,10 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/p3palazzo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/p3palazzo"
 
 
 # Content
