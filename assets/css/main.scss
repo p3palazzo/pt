@@ -44,6 +44,8 @@ $text-color: $darker-gray;
    Grid
    ========================================================================== */
 
+$x-large: 1440px;
+$max-width: calc(1520px + 3em);
 $right-sidebar-width-narrow: 300px;
 $right-sidebar-width: 300px;
 $right-sidebar-width-wide: 400px;
@@ -61,7 +63,7 @@ $header-font-style: italic;
   "pandoc",
   "pandoc-solarized",
   "local",
-	"revealjs-support"
+  "revealjs-support"
 ;
 
 /*******************************************
@@ -70,14 +72,24 @@ $header-font-style: italic;
 // Better size and margins for icons
 ul.visible-links {
 	font-size: $h-size-1;
-  a {
-    margin: 0 0.1rem;
-  }
+    a {
+        margin: 0 0.1rem;
+    }
 }
 
 /****************************
  * Header overlay gradients *
  ****************************/
+.page__hero--overlay {
+  display: flex;
+  flex-flow: column;
+  // Right now this is an empirical approximation.
+  height: calc(100vh - 64px);
+  @include breakpoint($large) {
+    height: calc(100vh - 88px);
+  }
+}
+
 .page__content {
 	h1,
 	h2 {
