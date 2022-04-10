@@ -140,9 +140,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/p3palazzo"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+    - label: "YouTube"
+      icon : "fab fa-fw fa-youtube"
+      url  : 'https://youtube.com/PedroPauloPalazzo'
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -158,13 +158,13 @@ footer:
 collections:
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
-  inv:
+  investiga:
     output      : true
     permalink   : /:collection/:name/
-  pat:
+  projeto:
     output      : true
     permalink   : /:collection/:name/
-  vis:
+  visualiza:
     output      : true
     permalink   : /:collection/:name/
 
@@ -326,24 +326,24 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _inv
+  # _investiga
   - scope:
       path: ""
-      type: inv
+      type: investiga
     values:
       share: true
       related: true
-  # _pat
+  # _projeto
   - scope:
       path: ""
-      type: pat
+      type: projeto
     values:
       share: true
       related: true
-  # _vis
+  # _visualiza
   - scope:
       path: ""
-      type: vis
+      type: visualiza
     values:
       share: true
       related: true
