@@ -158,7 +158,7 @@ footer:
 collections:
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
-  investiga:
+  pesquisa:
     output      : true
     permalink   : /:collection/:name/
   projeto:
@@ -326,10 +326,10 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _investiga
+  # _pesquisa
   - scope:
       path: ""
-      type: investiga
+      type: pesquisa
     values:
       share: true
       related: true
