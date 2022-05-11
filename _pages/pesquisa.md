@@ -4,7 +4,6 @@ permalink     : /pesquisa/
 layout        : collection
 collection    : pesquisa
 entries_layout: grid
-classes       : wide
 excerpt: >
   História da arquitetura e da construção.
   Documentação e análise de sítios históricos em

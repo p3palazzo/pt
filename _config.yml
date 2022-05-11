@@ -15,7 +15,7 @@ url                      : "https://palazzo.pt"
 locale                   : "pt-PT"
 repository               : "p3palazzo/pt"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : https://avatars.githubusercontent.com/u/105297355?s=200&v=4
 masthead_title           : #
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -161,6 +161,13 @@ collections:
   pesquisa:
     output      : true
     permalink   : /:collection/:name/
+    order:
+      - luso-brasileira.md
+      - teoria.md
+      - catetinho.md
+      - planaltina.md
+      - modelagem.md
+      - monumentalidade.md
   projeto:
     output      : true
     permalink   : /:collection/:name/
@@ -307,7 +314,8 @@ defaults:
       path: ""
     values:
       layout: single
-      toc: false
+      toc: true
+      toc_icon: "paragraph"
       toc_label: false
       toc_sticky: false
       author_profile: false
@@ -315,6 +323,8 @@ defaults:
       comments: false
       share: false
       related: false
+      header:
+        overlay_filter: 0.5
   # _posts
   - scope:
       path: ""

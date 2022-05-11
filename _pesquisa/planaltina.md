@@ -8,7 +8,6 @@ excerpt: >
 header:
   teaser        : https://cdn.palazzo.arq.br/portfolio/Planaltina_Abaco_20120815_M202.3.2_SEHTipologia-teaser.jpg
   overlay_image : https://cdn.palazzo.arq.br/portfolio/Planaltina_Abaco_20120815_M202.3.2_SEHTipologia.jpg
-  overlay_filter: 0.5
 tags:
 - Inquérito
 - Património cultural
@@ -17,7 +16,7 @@ tags:
 
 download:
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invplanaltina-capa_relatorio-teaser.jpg
-  title     : "Relatório completo"
+  title     : "Volume único"
   btn_label : "Fazer download"
   btn_class : "btn btn--inverse"
   url       : "https://cdn.abaco.arq.br/produtos/iphandf-invplanaltina.pdf"
@@ -71,6 +70,8 @@ gallery:
 - image_path: https://cdn.palazzo.arq.br/portfolio/Planaltina-M301-1372-01-teaser.jpg
 - image_path: https://cdn.palazzo.arq.br/portfolio/Planaltina-M302-4179-03-teaser.jpg
 ---
+
+## Relatório do inquérito ##
 
 {% include feature_row id="download" type="right" %}
 
