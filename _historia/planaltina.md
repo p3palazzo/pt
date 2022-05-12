@@ -17,7 +17,7 @@ tags:
 download:
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invplanaltina-capa_relatorio-teaser.jpg
   title     : "Volume único"
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : "https://cdn.abaco.arq.br/produtos/iphandf-invplanaltina.pdf"
 
@@ -32,7 +32,7 @@ artigos:
     not only to visualize information but also to automate preliminary
     analysis of large amounts of data from urban areas more effectively
     in combination with a database of morphological features.
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://www.ncpe.us/publications/volume-10-2018/
 - image_path: https://cdn.palazzo.arq.br/portfolio/Planaltina_SD_Anonimo_AvenidaGoias_001-teaser.jpg
@@ -45,7 +45,7 @@ artigos:
     celebrando as origens do povoamento local, a consolidação do núcleo
     urbano e sua modernização, e os desafios socioculturais provocados
     pelo crescimento da capital federal.
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://periodicos.furg.br/hist/article/view/5600
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invplanaltina-isuf2014-teaser.jpg
@@ -58,7 +58,7 @@ artigos:
     This paper examines the patterns of urbanization in Planaltina, one
     of a number of towns founded during the economic slump in central
     Brazil in the nineteenth century.
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://doi.org/10.17613/s1jn-1c93
 

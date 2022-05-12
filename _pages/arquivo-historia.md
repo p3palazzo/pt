@@ -1,8 +1,8 @@
 ---
-title         : "Pesquisa"
-permalink     : /pesquisa/
+title         : "História"
+permalink     : /historia/
 layout        : collection
-collection    : pesquisa
+collection    : historia
 entries_layout: grid
 excerpt: >
   História da arquitetura e da construção.
@@ -13,7 +13,6 @@ excerpt: >
   (<span class="smallcaps">SIG</span>).
 header:
   overlay_image: https://cdn.palazzo.arq.br/portfolio/pt-lis-bairro_alto-overlay.jpg
-  overlay_filter: 0.7
 sidebar:
 - text: >
     <i class="fas fa-language"> [fr](/fr/recherche/)

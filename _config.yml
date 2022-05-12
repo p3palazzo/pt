@@ -153,7 +153,7 @@ footer:
 collections:
   posts:
     permalink   : /:categories/:year/:month/:day/:title/
-  pesquisa:
+  historia:
     output      : true
     permalink   : /:collection/:name/
     order:
@@ -332,13 +332,13 @@ defaults:
       share: true
       related: true
       toc: true
-  # _pesquisa
+  # _história
   - scope:
       path: ""
-      type: pesquisa
+      type: historia
     values:
       share: true
-      related: true
+      related: false
       toc: true
   # _projeto
   - scope:
@@ -346,7 +346,7 @@ defaults:
       type: projeto
     values:
       share: true
-      related: true
+      related: false
       toc: true
   # _visualiza
   - scope:
@@ -354,5 +354,5 @@ defaults:
       type: visualiza
     values:
       share: true
-      related: true
+      related: false
       toc: true

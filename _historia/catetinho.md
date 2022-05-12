@@ -22,14 +22,14 @@ download:
   title     : "Volume 1"
   excerpt: >
     Relatório histórico-documental – Análise – Relatório conclusivo
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://cdn.abaco.arq.br/produtos/iphandf-invcatetinho-v1.pdf
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invcatetinho-v2-teaser.jpg
   title     : "Volume 2"
   excerpt: >
     Fontes documentais – Projetos e fotografias – Catálogos do acervo
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://cdn.abaco.arq.br/produtos/iphandf-invcatetinho-v2.pdf
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invcatetinho-v3-teaser.jpg
@@ -37,7 +37,7 @@ download:
   excerpt: >
     Fichas do Sistema Integrado de Conhecimento e Gestão
     <span class="smallcaps">(SICG)</span>
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://cdn.abaco.arq.br/produtos/iphandf-invcatetinho-v3.pdf
 
@@ -50,15 +50,15 @@ artigos:
     *Building Knowledge, Constructing Histories*, editado por Ine
     Wouters et al., 2:927–34. Leiden:
     <span class="smallcaps">CRC</span> : Balkema.
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
-  url       : https://sah.hcommons.org/deposits/item/hc:45741/
+  url       : https://doi.org/10.17613/f4ez-e229
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invcatetinho-github-social-teaser.jpg
   title     : "Catetinho: patrimonialização e arquitetura efêmera"
   excerpt: >
     Marina M. Mennucci e Pedro P. Palazzo (2021).
     *Labor e Engenho* 15 (dezembro): e021017
-  btn_label : "Fazer download"
+  btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://doi.org/10.20396/labore.v15i00.8665935
 ---

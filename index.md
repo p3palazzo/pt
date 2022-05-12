@@ -19,7 +19,7 @@ header:
 portfolio:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-lis-bairro_alto-teaser.jpg
   alt       : "Mapa com anotações de investigação"
-  title     : "Pesquisa"
+  title     : "História"
   excerpt: |
     História da arquitetura e da construção.
     Inventários e inquéritos.
@@ -28,7 +28,7 @@ portfolio:
     <span class="smallcaps">SIG</span>.
   btn_class : "btn btn--inverse"
   btn_label : "Ver publicações"
-  url       : "/pesquisa/"
+  url       : "/historia/"
 - image_path: https://cdn.palazzo.arq.br/portfolio/sobrepostas-teaser.jpg
   alt       : "Projeto de casas geminadas sobrepostas"
   title     : "Projeto"
