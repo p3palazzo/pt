@@ -1,0 +1,17 @@
+name: Website build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+    - name: Build the site in the custom jekyll-pandoc container
+      run: cd ${{ github.workspace }} && chmod 777 . && make

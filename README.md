@@ -1,13 +1,6 @@
-Pedro Paulo Palazzo's professional website
-==========================================
+# Site profissional do Pedro Paulo Palazzo
 
-![Jekyll](https://github.com/p3palazzo/p3palazzo.github.io/workflows/Website%20build/badge.svg)
-
-This code functions as an *aide-mémoire* to myself, helping me organize
-information I might need to access quickly and in a useful way for
-reports, résumés, and so on.
-
-Uses:
+![Jekyll](https://github.com/palazzo-pt/palazzo-pt.github.io/workflows/Website%20build/badge.svg)
 
 - [Academicons](https://github.com/jpswalsh/academicons)
 - [EB Garamond](https://github.com/georgd/EB-Garamond)
