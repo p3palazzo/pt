@@ -9,7 +9,7 @@ excerpt: >
 header:
   overlay_image : https://cdn.palazzo.arq.br/portfolio/casa-fd-5329-mirror.jpg
   actions:
-  - label       : "Contacto"
+  - label       : "Contato"
     url         : mailto:pedro@palazzo.pt
 
 portfolio:

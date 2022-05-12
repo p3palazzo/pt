@@ -5,16 +5,12 @@ title_separator          : "-"
 subtitle                 : "Arquiteto e Historiador da arquitetura"
 name                     : *name
 description: >-
-  Pesquiso arquitetura tradicional do Brasil. Sou professor na
-  Universidade de Brasília e coordenador do grupo de pesquisa
-  Documentação, Modelagem e Conservação do Patrimônio. Este site é um
-  ajuda-memória para mim mesmo, registrando minha trajetória profissional
-  de um jeito mais acessível do que o curriculum Lattes!
+  Arquiteto e Historiador da arquitetura.
 baseurl                  : ""
 url                      : "https://palazzo.pt"
 locale                   : "pt-PT"
-repository               : "p3palazzo/pt"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "palazzo-pt/palazzo-pt.github.io"
+teaser                   : https://cdn.palazzo.arq.br/portfolio/pavilion-2020-04-15-5322-crop-teaser.jpg
 logo                     : 
 masthead_title           : #
 breadcrumbs              : true # true, false (default)
@@ -66,7 +62,6 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 head_scripts:
-  #- https://kit.fontawesome.com/eddf3d9a63.js
 
 
 # Social Sharing
@@ -101,16 +96,16 @@ analytics:
 author:
   name             : *name
   avatar           : "https://cdn.palazzo.arq.br/portfolio/pp-0535xs.jpg"
-  bio              : "Historiador da arquitetura"
+  bio              : "Arquiteto e Historiador da arquitetura"
   location         : "Coimbra"
-  email            : "pedro@palazzo.arq.br"
+  email            : "pedro@palazzo.pt"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "palazzo@unb.br"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://palazzo.arq.br/"
+      # url: "https://palazzo.arq.br/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/p3palazzo"
