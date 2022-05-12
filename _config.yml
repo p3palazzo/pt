@@ -260,8 +260,8 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Write
 permalink: /:categories/:title/
-#paginate: 5 # amount of posts to show
-#paginate_path: /page:num/
+paginate: 5 # amount of posts to show
+paginate_path: /posts/page:num/
 timezone: "Europe/Lisbon"
 date_format: "%d/%m/%Y"
 
@@ -309,17 +309,17 @@ defaults:
       path: ""
     values:
       layout: single
-      toc: true
+      toc: false
       toc_icon: "paragraph"
       toc_label: false
-      toc_sticky: false
+      toc_sticky: true
       author_profile: false
       read_time: false
       comments: false
       share: false
       related: false
       header:
-        overlay_filter: 0.5
+        overlay_filter: 0.6
   # _posts
   - scope:
       path: ""
@@ -331,6 +331,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
   # _pesquisa
   - scope:
       path: ""
@@ -338,6 +339,7 @@ defaults:
     values:
       share: true
       related: true
+      toc: true
   # _projeto
   - scope:
       path: ""
@@ -345,6 +347,7 @@ defaults:
     values:
       share: true
       related: true
+      toc: true
   # _visualiza
   - scope:
       path: ""
@@ -352,3 +355,4 @@ defaults:
     values:
       share: true
       related: true
+      toc: true

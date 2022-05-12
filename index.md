@@ -1,6 +1,5 @@
 ---
 title           : "Arquitetura tradicional e história da construção"
-entries_layout  : grid
 layout          : splash
 page_js         : [ /assets/js/redirect.js ]
 excerpt: >
@@ -8,9 +7,14 @@ excerpt: >
   culturais e representação digital da arquitetura.
 header:
   overlay_image : https://cdn.palazzo.arq.br/portfolio/casa-fd-5329-mirror.jpg
+  overlay_filter: 0.7
   actions:
-  - label       : "Contato"
+  - label       : "E-mail"
     url         : mailto:pedro@palazzo.pt
+  - label       : "en"
+    url         : "/en/"
+  - label       : "fr"
+    url         : "/fr/"
 
 portfolio:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-lis-bairro_alto-teaser.jpg
@@ -49,7 +53,6 @@ portfolio:
 profile:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pp-colonnade-h.jpg
   alt       : "Foto do Pedro"
-  title     : "Quem sou eu"
   excerpt: |
     Arquiteto e historiador da arquitetura com experiência em
     preservação e gestão de sítios culturais. Investiga as tradições

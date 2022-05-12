@@ -13,6 +13,8 @@ excerpt: >
   (<span class="smallcaps">SIG</span>).
 header:
   overlay_image: https://cdn.palazzo.arq.br/portfolio/pt-lis-bairro_alto-overlay.jpg
-  caption: "Análise do parcelamento do solo no bairro Alto, Lisboa"
   overlay_filter: 0.7
+sidebar:
+- text: >
+    <i class="fas fa-language"> [fr](/fr/recherche/)
 ---

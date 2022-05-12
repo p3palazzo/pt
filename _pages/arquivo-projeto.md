@@ -10,4 +10,7 @@ excerpt: >
 header:
   overlay_image: https://cdn.palazzo.arq.br/portfolio/sobrepostas-overlay.jpg
   overlay_filter: 0.5
+sidebar:
+- text: >
+    <i class="fas fa-language"> [fr](/fr/projet/)
 ---
