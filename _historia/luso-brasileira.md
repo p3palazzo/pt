@@ -22,12 +22,12 @@ tags:
 
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-coimbra-montes_claros-200615-pp-5531-crop-scaled-teaser.jpg
-  title     : "A casa corrente de 40 palmos (± 2)"
+  title     : "A casa corrente de 40 palmos (± 2)"
   btn_label : "Ver publicação"
   btn_class : "btn btn--inverse"
   url       : https://doi.org/10.29327/153996.2-4
   excerpt: |
-    Pedro P. Palazzo, «A casa corrente de 40 palmos (± 2): um tipo
+    Pedro P. Palazzo, «A casa corrente de 40 palmos (± 2): um tipo
     português da idade liberal», em *Olhares sobre o Brasil* (III
     Seminário Arquitetura Vernácula/Popular, Salvador: Programa de
     Pós-Graduação em Arquitetura e Urbanismo da <span

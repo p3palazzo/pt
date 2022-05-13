@@ -22,7 +22,6 @@ portfolio:
   title     : "História"
   excerpt: |
     História da arquitetura e da construção.
-    Inventários e inquéritos.
     Documentação e análise de sítios históricos em
     <span class="smallcaps">HBIM</span> e
     <span class="smallcaps">SIG</span>.
@@ -33,8 +32,8 @@ portfolio:
   alt       : "Projeto de casas geminadas sobrepostas"
   title     : "Projeto"
   excerpt: |
+    Inquéritos a sítios históricos e planos de conservação.
     Reabilitação e construções tradicionais.
-    Análise e preservação de áreas urbanas.
     Gestão de acervos, OpenBIM e bases de dados.
   btn_label : "Ver projetos"
   btn_class : "btn btn--inverse"
@@ -52,10 +51,11 @@ portfolio:
 
 profile:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pp-colonnade-h.jpg
+  title     : "Quem sou eu"
   alt       : "Foto do Pedro"
   excerpt: |
     Arquiteto e historiador da arquitetura com experiência em
-    preservação e gestão de sítios culturais. Investiga as tradições
+    preservação e gestão de sítios culturais. Investigo as tradições
     construtivas do Mediterrâneo ocidental e do mundo lusófono nos séculos
     <span class="smallcaps">XVIII</span> e <span
     class="smallcaps">XIX</span>, com ênfase nas interfaces entre a
@@ -67,12 +67,12 @@ profile:
     investigador visitante junto ao projeto
     [TechNetEmpire](http://technetempire.fcsh.unl.pt/) na Universidade
     <span class="smallcaps">NOVA</span> de Lisboa. Membro do Comité de
-    documentação do conselho científico do Icomos Brasil e realiza trabalhos
-    técnicos esporádicos em patrimônio cultural e arquitetura tradicional
+    documentação do conselho científico do Icomos Brasil e realizo trabalhos
+    técnicos esporádicos em conservação e arquitetura tradicional
     com a [Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
 ---
 
 {% include feature_row id="portfolio" %}
 
-{% include feature_row id="profile" type="right" %}
+{% include feature_row id="profile" type="center" %}
 

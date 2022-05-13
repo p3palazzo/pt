@@ -2,7 +2,7 @@
 title: "Inventário do Catetinho"
 date : 2017-12-13
 excerpt: >
-  Documentação e proposta de diretrizes de preservação para o
+  Inquérito e proposta de diretrizes de preservação para o
   Catetinho, primeiro palácio presidencial de Brasília, incluindo a
   classificação do seu acervo museológico.
 header:

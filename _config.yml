@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "https://cdn.palazzo.arq.br/portfolio/pp-0535xs.jpg"
+  avatar           : https://avatars.githubusercontent.com/u/8295666?v=4
   bio              : "Arquiteto e Historiador da arquitetura"
   location         : "Coimbra"
   email            : "pedro@palazzo.pt"
@@ -159,13 +159,17 @@ collections:
     order:
       - luso-brasileira.md
       - teoria.md
-      - catetinho.md
-      - planaltina.md
       - modelagem.md
       - monumentalidade.md
   projeto:
     output      : true
     permalink   : /:collection/:name/
+    order:
+      - beira.md
+      - domestica.md
+      - catetinho.md
+      - planaltina.md
+      - expo.md
   visualiza:
     output      : true
     permalink   : /:collection/:name/
