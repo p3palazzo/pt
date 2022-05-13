@@ -14,6 +14,33 @@ tags:
 - Arquitetura contemporânea
 - Sustentabilidade
 
+ensino:
+- image_path: https://cdn.palazzo.arq.br/arqtrad/640px-Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project-crop.jpg
+  title     : "Arquitetura antiga e medieval"
+  btn_label : "Ver notas de aula"
+  btn_class : "btn btn--inverse"
+  url       : https://palazzo.arq.br/tau0005/
+  excerpt: >
+    O ensino da arquitetura antiga e medieval no Brasil se defronta com
+    um contexto de falta de referências imediatas ao objeto de estudo. A
+    didática proposta nesta unidade aproveita o conteúdo de história da
+    Europa, Ásia e África como pretexto para desenvolver um aprendizado
+    operativo de sistemas construtivos tradicionais, bem como da
+    sensibilidade espacial volumétrica da arquitetura pré-moderna.
+
+- image_path: https://cdn.palazzo.arq.br/humanismo/640px-Giovanni_Paolo_Pannini_-_Gallery_of_Views_of_Modern_Rome_-_WGA16980-crop.jpg
+  title     : "Arquitetura e urbanismo da Idade Moderna"
+  btn_label : "Ver notas de aula"
+  btn_class : "btn btn--inverse"
+  url       : https://palazzo.arq.br/tau0006/
+  excerpt: >
+    A Idade Moderna corresponde ao período em que emerge uma consciência
+    histórica em diversas sociedades pelo mundo. O ensino de história da
+    arquitetura e da urbanização focado neste período acompanha a
+    codificação de tradições clássicas na Europa e na Ásia, evidenciando
+    as teias globais de influências e processos produtivos que dão
+    suporte a essas tradições.
+
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/aldo-rossi-citta-analoga-crop-teaser.jpg
   title     : "The Death and Life of ‘Operative’ History"
@@ -137,6 +164,15 @@ artigos:
     diferentes graus de deterioração de sítios urbanos e ao conceito de
     autenticidade histórica.
 ---
+
+## Didática de história da arquitetura ##
+
+O material didático abaixo foi desenvolvido por mim para adaptação ao
+ensino a distância das unidades curriculares de formação profissional em
+história da arquitetura na Universidade de Brasília, no contexto da
+pandemia de Covid–19.
+
+{% include feature_row id="ensino" %}
 
 ## Publicações decorrentes ##
 
