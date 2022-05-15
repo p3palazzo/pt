@@ -12,9 +12,9 @@ header:
   - label       : "E-mail"
     url         : mailto:pedro@palazzo.pt
   - label       : "en"
-    url         : "/en/"
+    url         : "https://palazzo.pt/en/"
   - label       : "fr"
-    url         : "/fr/"
+    url         : "https://palazzo.pt/fr/"
 
 portfolio:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-lis-bairro_alto-teaser.jpg
