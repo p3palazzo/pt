@@ -1,6 +1,6 @@
 # Site profissional do Pedro Paulo Palazzo
 
-![Jekyll](https://github.com/palazzo-pt/palazzo-pt.github.io/workflows/Website%20build/badge.svg)
+![Jekyll](https://github.com/palazzo-pt/pt/workflows/Website%20build/badge.svg)
 
 - [Academicons](https://github.com/jpswalsh/academicons)
 - [EB Garamond](https://github.com/georgd/EB-Garamond)
