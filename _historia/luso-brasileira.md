@@ -1,7 +1,5 @@
 ---
 title          : 'Arquitetura luso-brasileira no longo século <span class="smallcaps">XIX</span>'
-classes        : wide
-toc            : false
 header:
   teaser       : https://cdn.palazzo.arq.br/portfolio/classico-trad-ecletico-teaser.jpg
   overlay_image: https://cdn.palazzo.arq.br/portfolio/classico-trad-ecletico.jpg
@@ -13,12 +11,6 @@ excerpt: >
   privilegia-se a temática do cosmopolitismo e do nacionalismo na
   formulação de manifestos, análises e obras construídas pertencentes
   aos diversos movimentos e ideologias vigentes no recorte cronológico.
-tags:
-- História
-- Arquitetura
-- Urbanismo
-- Brasil
-- Portugal
 
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-coimbra-montes_claros-200615-pp-5531-crop-scaled-teaser.jpg
@@ -148,9 +140,49 @@ artigos:
     mesmo o classicismo tradicional. Esse contexto existiu na época do
     ecletismo acadêmico e persiste no período recente, a que se ventura
     aqui chamar de ecletismo moderno.
+
+projetos:
+- image_path: https://cdn.palazzo.arq.br/portfolio/640px-pt-marvao-beira-e2_ribeira_axon.jpg
+  title     : "Requalificação urbana na Beirã (Marvão)"
+  btn_label : "Ver projeto"
+  btn_class : "btn btn--inverse"
+  url       : "/projeto/beira/"
+  excerpt: >
+    Produto da Escola de Verão em arquitetura e urbanismo tradicionais
+    2018, organizada por <span class="smallcaps">INTBAU</span> Portugal e
+    Espanha e pelo Premio Rafael Manzano. Projeto de requalificação
+    sustentável da antiga vila ferroviária da Beirã e da sua estação.
+
+- image_path: https://cdn.palazzo.arq.br/portfolio/640px-br-df-planaltina-casazul-pp-3018-crop.jpg
+  title     : "Tipologias domésticas"
+  btn_label : "Ver projetos"
+  btn_class : "btn btn--inverse"
+  url       : "/projeto/domestica/"
+  excerpt: >
+    Estudos e projetos de moradas, apartamentos e uso misto a partir de
+    tipos edilícios luso-brasileiros. Novas construções, reabilitações e
+    pesquisa historiográfica.
+
+- image_path: https://cdn.palazzo.arq.br/portfolio/Planaltina_Abaco_20120815_M202.3.2_SEHTipologia-teaser.jpg
+  title     : "Inventário de Planaltina"
+  btn_label : "Ver projeto"
+  btn_class : "btn btn--inverse"
+  url       : "/projeto/planaltina/"
+  excerpt: >
+    Inquérito e proposta de diretrizes de preservação para o
+    centro histórico de Planaltina, Brasil, compreendendo mais de
+    200 imóveis de interesse cultural.
 ---
 
 ## Publicações decorrentes ##
 
-{% include feature_row id="artigos" %}
+<div class="full">
+  {% include feature_row id="artigos" %}
+</div>
+
+## Projetos relacionados ##
+
+<div class="full">
+  {% include feature_row id="projetos" %}
+</div>
 

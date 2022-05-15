@@ -1,18 +1,11 @@
 ---
 title: "Teoria e ensino de história da arquitetura"
-classes: wide
-toc: false
 header:
   teaser       : https://cdn.palazzo.arq.br/portfolio/Vitruvius-teaser.jpg
   overlay_image: https://cdn.palazzo.arq.br/portfolio/Vitruvius.jpg
 excerpt: >
   Pesquisas e reflexões sobre a teoria da história da arquitetura e o
   ensino de arquitetura e urbanismo na atualidade.
-tags:
-- Teoria da história
-- História da arquitetura
-- Arquitetura contemporânea
-- Sustentabilidade
 
 ensino:
 - image_path: https://cdn.palazzo.arq.br/arqtrad/640px-Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project-crop.jpg
@@ -172,9 +165,13 @@ ensino a distância das unidades curriculares de formação profissional em
 história da arquitetura na Universidade de Brasília, no contexto da
 pandemia de Covid–19.
 
-{% include feature_row id="ensino" %}
+<div class="full">
+  {% include feature_row id="ensino" %}
+</div>
 
 ## Publicações decorrentes ##
 
-{% include feature_row id="artigos" %}
+<div class="full">
+  {% include feature_row id="artigos" %}
+</div>
 

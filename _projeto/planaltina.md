@@ -8,11 +8,6 @@ excerpt: >
 header:
   teaser        : https://cdn.palazzo.arq.br/portfolio/Planaltina_Abaco_20120815_M202.3.2_SEHTipologia-teaser.jpg
   overlay_image : https://cdn.palazzo.arq.br/portfolio/Planaltina_Abaco_20120815_M202.3.2_SEHTipologia.jpg
-tags:
-- Inquérito
-- Património cultural
-- Planaltina
-- Urbanismo
 
 download:
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invplanaltina-capa_relatorio-teaser.jpg

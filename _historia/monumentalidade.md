@@ -8,11 +8,6 @@ header:
 excerpt: >
   Interfaz entre a tradição clássica e a construção da cidade
   industrial, do legado Beaux-Arts ao modernismo.
-tags:
-- Modernismo
-- Monumentalidade
-- História da arquitetura
-- Urbanismo
 
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/fr-anet-androuet-teaser.jpg

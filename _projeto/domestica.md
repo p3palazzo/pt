@@ -29,6 +29,10 @@ gallery:
   title: >
     Diagrama do reparcelamento medieval de um adarve andalusí com 50
     palmos de testada em duas casas correntes portuguesas com 25 palmos.
+- image_path: https://cdn.palazzo.arq.br/portfolio/640px-br-rs-ituim-aloysio_gehlen-fachada_se.jpg
+  url       : https://cdn.palazzo.arq.br/portfolio/br-rs-ituim-aloysio_gehlen-fachada_se.jpg
+  alt       : "Estudo de casa rural no sul do Brasil"
+  title     : "Estudo de casa rural da imigração alemã (1952) no sul do Brasil"
 
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-coimbra-montes_claros-200615-pp-5531-crop-scaled-teaser.jpg
@@ -100,5 +104,7 @@ Clique nas imagens para ampliar:
 
 ## Publicações relacionadas ##
 
-{% include feature_row id="artigos" %}
+<div class="full">
+  {% include feature_row id="artigos" %}
+</div>
 

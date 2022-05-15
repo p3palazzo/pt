@@ -9,13 +9,6 @@ header:
   teaser        : https://cdn.palazzo.arq.br/portfolio/br-df-catetinho-ext-161029-pp-3099-teaser.jpg
   overlay_image : https://cdn.palazzo.arq.br/portfolio/br-df-catetinho-ext-161029-pp-3099.jpg
   overlay_filter: 0.3
-tags:
-- Inquérito
-- Património cultural
-- Brasília
-- Modernismo
-- Museu
-- Madeira
 
 download:
 - image_path: https://cdn.palazzo.arq.br/portfolio/iphandf-invcatetinho-v1-teaser.jpg

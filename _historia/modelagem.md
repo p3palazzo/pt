@@ -8,9 +8,4 @@ excerpt: >
 header:
   teaser       : https://cdn.palazzo.arq.br/portfolio/pt-marvao-beira-sketches-invert-teaser.jpg
   overlay_image: https://cdn.palazzo.arq.br/portfolio/pt-marvao-beira-sketches-invert.jpg
-tags:
-- Arquitetura tradicional
-- História da construção
-- Portugal
-- Brasil
 ---
