@@ -13,5 +13,8 @@ header:
   overlay_filter: 0.7
 sidebar:
 - text: >
-    <i class="fas fa-language fa-lg"></i>  [fr](/fr/projet/)
+    <i class="fas fa-language fa-lg"></i> 
+    [en](https://palazzo.pt/en/design/)
+    ·
+    [fr](https://palazzo.pt/fr/projet/)
 ---

@@ -16,5 +16,8 @@ header:
   overlay_image: https://cdn.palazzo.arq.br/portfolio/pt-lis-bairro_alto-overlay.jpg
 sidebar:
 - text: >
-    <i class="fas fa-language fa-lg"></i>  [fr](/fr/recherche/)
+    <i class="fas fa-language fa-lg"></i> 
+    [en](https://palazzo.pt/en/research/)
+    ·
+    [fr](https://palazzo.arq.br/fr/recherche/)
 ---

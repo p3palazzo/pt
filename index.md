@@ -1,7 +1,6 @@
 ---
 title           : "Arquitetura tradicional e história da construção"
 layout          : splash
-page_js         : [ /assets/js/redirect.js ]
 excerpt: >
   Investigação histórica, documentação e projeto de sítios
   culturais e representação digital da arquitetura.
@@ -11,9 +10,9 @@ header:
   actions:
   - label       : "E-mail"
     url         : mailto:pedro@palazzo.pt
-  - label       : "en"
+  - label       : '<i class="fas fa-language fa-lg"></i> en'
     url         : "https://palazzo.pt/en/"
-  - label       : "fr"
+  - label       : '<i class="fas fa-language fa-lg"></i> fr'
     url         : "https://palazzo.pt/fr/"
 
 portfolio:
