@@ -9,7 +9,7 @@ description: >-
 baseurl                  : "/pt"
 url                      : "https://palazzo.pt"
 locale                   : "pt-PT"
-repository               : "palazzo-pt/palazzo-pt.github.io"
+repository               : "palazzo-pt/pt"
 teaser                   : https://cdn.palazzo.arq.br/portfolio/pavilion-2020-04-15-5322-crop-teaser.jpg
 logo                     : 
 masthead_title           : #
