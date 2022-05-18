@@ -6,7 +6,7 @@ subtitle                 : "Arquiteto e Historiador da arquitetura"
 name                     : *name
 description: >-
   Arquiteto e Historiador da arquitetura.
-baseurl                  : ""
+baseurl                  : "/pt"
 url                      : "https://palazzo.pt"
 locale                   : "pt-PT"
 repository               : "palazzo-pt/palazzo-pt.github.io"
