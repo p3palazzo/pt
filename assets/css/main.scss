@@ -61,14 +61,4 @@ $header-font-style: italic;
     "local",
 	"revealjs-support"
 ;
-
-.masthead,
-.page__content h2,
-.feature__wrapper,
-.page__share,
-.page__content + .pagination, .page__meta + .pagination, .comment__date + .pagination, .page__share + .pagination, .page__comments + .pagination,
-.pagination,
-.page__related {
-    border: 0;
-}
 // vim: set shiftwidth=4 tabstop=4 foldmethod=indent :
