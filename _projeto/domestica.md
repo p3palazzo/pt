@@ -33,6 +33,10 @@ gallery:
   url       : https://cdn.palazzo.arq.br/portfolio/br-rs-ituim-aloysio_gehlen-fachada_se.jpg
   alt       : "Estudo de casa rural no sul do Brasil"
   title     : "Estudo de casa rural da imigração alemã (1952) no sul do Brasil"
+- image_path: https://cdn.palazzo.arq.br/portfolio/640px-pt-coimbra-arregaca-estratigrafia.jpg
+  url       : https://cdn.palazzo.arq.br/portfolio/pt-coimbra-arregaca-estratigrafia.jpg
+  alt       : "Arqueologia da edificação"
+  title     : "Arqueologia da edificação: análise estratigráfica de casas correntes em Coimbra"
 
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-coimbra-montes_claros-200615-pp-5531-crop-scaled-teaser.jpg
