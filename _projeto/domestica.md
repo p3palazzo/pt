@@ -37,6 +37,10 @@ gallery:
   url       : https://cdn.palazzo.arq.br/portfolio/pt-coimbra-arregaca-estratigrafia.jpg
   alt       : "Arqueologia da edificação"
   title     : "Arqueologia da edificação: análise estratigráfica de casas correntes em Coimbra"
+- image_path: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/PT-Entroncamento-Cam%C3%B5es-IB-IA-2-elv.jpg/640px-PT-Entroncamento-Cam%C3%B5es-IB-IA-2-elv.jpg
+  url       : https://cdn.palazzo.arq.br/portfolio/pt-entroncamento-camoes-IB-IA-prancha.jpg
+  alt       : Casas modelo IB e IA no Entroncamento
+  title     : "J.A. Cottinelli Telmo e Luís da Cunha, arquitetos, casas modelo IB e IA no Entroncamento, 1925–27"
 
 artigos:
 - image_path: https://cdn.palazzo.arq.br/portfolio/pt-coimbra-montes_claros-200615-pp-5531-crop-scaled-teaser.jpg
