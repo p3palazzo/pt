@@ -61,11 +61,10 @@ profile:
     construção tradicional e a moderna, bem como entre a arquitetura
     erudita da tradição clássica e as tipologias vernáculas.
 
-    Atualmente professor associado na [Faculdade de Arquitetura e
+    Professor associado na [Faculdade de Arquitetura e
     Urbanismo da Universidade de Brasília](http://www.fau.unb.br) e
-    investigador visitante junto ao projeto
-    [TechNetEmpire](http://technetempire.fcsh.unl.pt/) na Universidade
-    <span class="smallcaps">NOVA</span> de Lisboa. Membro do Comité de
+    investigador visitante junto ao [Centro de Estudos Sociais da
+    Universidade de Coimbra](https://ces.uc.pt). Membro do Comité de
     documentação do conselho científico do Icomos Brasil e realizo trabalhos
     técnicos esporádicos em conservação e arquitetura tradicional
     com a [Ábaco Arquitetura](https://www.abaco-arquitetura.com.br).
